@@ -1,0 +1,548 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A55C9D85C40BFDACB5C444AA /* ofxYAML.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5B5CC89AC3CC3FAC5823018C /* ofxYAML.cpp */; };
+		E4328149138ABC9F0047C5CB /* openFrameworksDebug.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E4328148138ABC890047C5CB /* openFrameworksDebug.a */; };
+		E4B69E200A3A1BDC003C02F2 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4B69E1D0A3A1BDC003C02F2 /* main.cpp */; };
+		E4B69E210A3A1BDC003C02F2 /* ofApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4B69E1E0A3A1BDC003C02F2 /* ofApp.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E4328147138ABC890047C5CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E4328143138ABC890047C5CB /* openFrameworksLib.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E4B27C1510CBEB8E00536013;
+			remoteInfo = openFrameworks;
+		};
+		E4EEB9AB138B136A00A80321 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E4328143138ABC890047C5CB /* openFrameworksLib.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = E4B27C1410CBEB8E00536013;
+			remoteInfo = openFrameworks;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E4C2427710CC5ABF004149E2 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		022AE7D644B6C8D72B79355A /* dll.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = dll.h; path = "../../../addons/ofxYAML/libs/yaml-cpp/include/dll.h"; sourceTree = SOURCE_ROOT; };
+		0AF34E78B2988C95D037461B /* emitter.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = emitter.h; path = "../../../addons/ofxYAML/libs/yaml-cpp/include/emitter.h"; sourceTree = SOURCE_ROOT; };
+		269C1AFF8C48E862CE8E489D /* node_iterator.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = node_iterator.h; path = "../../../addons/ofxYAML/libs/yaml-cpp/include/node/detail/node_iterator.h"; sourceTree = SOURCE_ROOT; };
+		277A135CF2BDDC6019D6627C /* impl.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = impl.h; path = "../../../addons/ofxYAML/libs/yaml-cpp/include/node/detail/impl.h"; sourceTree = SOURCE_ROOT; };
+		2A493A6E51D84FD947783ACA /* emitterstyle.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = emitterstyle.h; path = "../../../addons/ofxYAML/libs/yaml-cpp/include/emitterstyle.h"; sourceTree = SOURCE_ROOT; };
+		2CD10A8F271CEB6042B01A34 /* eventhandler.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = eventhandler.h; path = "../../../addons/ofxYAML/libs/yaml-cpp/include/eventhandler.h"; sourceTree = SOURCE_ROOT; };
+		2D4AB73C5CBAF9BD5236107E /* parse.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = parse.h; path = "../../../addons/ofxYAML/libs/yaml-cpp/include/node/parse.h"; sourceTree = SOURCE_ROOT; };
+		32F32857A1327A81FE3FA3D4 /* bool_type.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = bool_type.h; path = "../../../addons/ofxYAML/libs/yaml-cpp/include/node/detail/bool_type.h"; sourceTree = SOURCE_ROOT; };
+		345C954A3C71FD324E5C56BC /* emittermanip.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = emittermanip.h; path = "../../../addons/ofxYAML/libs/yaml-cpp/include/emittermanip.h"; sourceTree = SOURCE_ROOT; };
+		34BA8C04C87F544C6F83504D /* exceptions.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = exceptions.h; path = "../../../addons/ofxYAML/libs/yaml-cpp/include/exceptions.h"; sourceTree = SOURCE_ROOT; };
+		476BAE14650FC6289736CB02 /* stlemitter.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = stlemitter.h; path = "../../../addons/ofxYAML/libs/yaml-cpp/include/stlemitter.h"; sourceTree = SOURCE_ROOT; };
+		49ADFC656055B99967B756E5 /* convert.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = convert.h; path = "../../../addons/ofxYAML/libs/yaml-cpp/include/node/convert.h"; sourceTree = SOURCE_ROOT; };
+		4DE761F5765491A12ABF10E2 /* iterator_fwd.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = iterator_fwd.h; path = "../../../addons/ofxYAML/libs/yaml-cpp/include/node/detail/iterator_fwd.h"; sourceTree = SOURCE_ROOT; };
+		53AE183D8157265A84CCFF21 /* node_data.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = node_data.h; path = "../../../addons/ofxYAML/libs/yaml-cpp/include/node/detail/node_data.h"; sourceTree = SOURCE_ROOT; };
+		5B5CC89AC3CC3FAC5823018C /* ofxYAML.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxYAML.cpp; path = ../../../addons/ofxYAML/src/ofxYAML.cpp; sourceTree = SOURCE_ROOT; };
+		66FE272D75167208D021C14B /* node.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = node.h; path = "../../../addons/ofxYAML/libs/yaml-cpp/include/node/node.h"; sourceTree = SOURCE_ROOT; };
+		6AAFAE2870B07C8C000D3077 /* ostream_wrapper.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ostream_wrapper.h; path = "../../../addons/ofxYAML/libs/yaml-cpp/include/ostream_wrapper.h"; sourceTree = SOURCE_ROOT; };
+		6E0236931BAF837F44B4E100 /* emitterdef.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = emitterdef.h; path = "../../../addons/ofxYAML/libs/yaml-cpp/include/emitterdef.h"; sourceTree = SOURCE_ROOT; };
+		72BF674908559276FB302F64 /* graphbuilder.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = graphbuilder.h; path = "../../../addons/ofxYAML/libs/yaml-cpp/include/contrib/graphbuilder.h"; sourceTree = SOURCE_ROOT; };
+		76305C2A2D12594585531AFF /* emit.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = emit.h; path = "../../../addons/ofxYAML/libs/yaml-cpp/include/node/emit.h"; sourceTree = SOURCE_ROOT; };
+		820CE049132FFD959FDD1A4D /* parser.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = parser.h; path = "../../../addons/ofxYAML/libs/yaml-cpp/include/parser.h"; sourceTree = SOURCE_ROOT; };
+		883BAAD477BA5093693B5C2E /* memory.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = memory.h; path = "../../../addons/ofxYAML/libs/yaml-cpp/include/node/detail/memory.h"; sourceTree = SOURCE_ROOT; };
+		8E86EBA888B697A738A8308E /* iterator.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = iterator.h; path = "../../../addons/ofxYAML/libs/yaml-cpp/include/node/iterator.h"; sourceTree = SOURCE_ROOT; };
+		938C8C1D2B85694B151B969B /* ptr.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ptr.h; path = "../../../addons/ofxYAML/libs/yaml-cpp/include/node/ptr.h"; sourceTree = SOURCE_ROOT; };
+		9B9710233856EA58F7BBB4B5 /* node_ref.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = node_ref.h; path = "../../../addons/ofxYAML/libs/yaml-cpp/include/node/detail/node_ref.h"; sourceTree = SOURCE_ROOT; };
+		9CD131B8F9CE8150CF7F9821 /* emitfromevents.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = emitfromevents.h; path = "../../../addons/ofxYAML/libs/yaml-cpp/include/emitfromevents.h"; sourceTree = SOURCE_ROOT; };
+		A3D31EFD66B64622B319FEA7 /* node.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = node.h; path = "../../../addons/ofxYAML/libs/yaml-cpp/include/node/detail/node.h"; sourceTree = SOURCE_ROOT; };
+		A5610CC0B38EA6717F4B1A2A /* yaml.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = yaml.h; path = "../../../addons/ofxYAML/libs/yaml-cpp/include/yaml.h"; sourceTree = SOURCE_ROOT; };
+		A57127F8965F186E8D5D5EA3 /* type.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = type.h; path = "../../../addons/ofxYAML/libs/yaml-cpp/include/node/type.h"; sourceTree = SOURCE_ROOT; };
+		B3B54050A70BDC628B184AC8 /* iterator.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = iterator.h; path = "../../../addons/ofxYAML/libs/yaml-cpp/include/node/detail/iterator.h"; sourceTree = SOURCE_ROOT; };
+		B9CF58F175E543FC497A4188 /* anchor.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = anchor.h; path = "../../../addons/ofxYAML/libs/yaml-cpp/include/anchor.h"; sourceTree = SOURCE_ROOT; };
+		C22C91627577D76F80B5168E /* binary.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = binary.h; path = "../../../addons/ofxYAML/libs/yaml-cpp/include/binary.h"; sourceTree = SOURCE_ROOT; };
+		CCB12392DFF2A912EA4F8B4F /* ofxYAML.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxYAML.h; path = ../../../addons/ofxYAML/src/ofxYAML.h; sourceTree = SOURCE_ROOT; };
+		D44B6732CC6839E1B1226EF9 /* null.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = null.h; path = "../../../addons/ofxYAML/libs/yaml-cpp/include/null.h"; sourceTree = SOURCE_ROOT; };
+		DF569252A160F7B005DD9CC8 /* traits.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = traits.h; path = "../../../addons/ofxYAML/libs/yaml-cpp/include/traits.h"; sourceTree = SOURCE_ROOT; };
+		E34BA04A49F59080DF5AAE14 /* noncopyable.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = noncopyable.h; path = "../../../addons/ofxYAML/libs/yaml-cpp/include/noncopyable.h"; sourceTree = SOURCE_ROOT; };
+		E4328143138ABC890047C5CB /* openFrameworksLib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = openFrameworksLib.xcodeproj; path = ../../../libs/openFrameworksCompiled/project/osx/openFrameworksLib.xcodeproj; sourceTree = SOURCE_ROOT; };
+		E4B69B5B0A3A1756003C02F2 /* exampleDebug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = exampleDebug.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4B69E1D0A3A1BDC003C02F2 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = src/main.cpp; sourceTree = SOURCE_ROOT; };
+		E4B69E1E0A3A1BDC003C02F2 /* ofApp.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofApp.cpp; path = src/ofApp.cpp; sourceTree = SOURCE_ROOT; };
+		E4B69E1F0A3A1BDC003C02F2 /* ofApp.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = ofApp.h; path = src/ofApp.h; sourceTree = SOURCE_ROOT; };
+		E4B6FCAD0C3E899E008CF71C /* openFrameworks-Info.plist */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.plist.xml; path = "openFrameworks-Info.plist"; sourceTree = "<group>"; };
+		E4EB691F138AFCF100A09F29 /* CoreOF.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = CoreOF.xcconfig; path = ../../../libs/openFrameworksCompiled/project/osx/CoreOF.xcconfig; sourceTree = SOURCE_ROOT; };
+		E4EB6923138AFD0F00A09F29 /* Project.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Project.xcconfig; sourceTree = "<group>"; };
+		EBE37EAF16EE5942009C9C2F /* anchordict.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = anchordict.h; path = "../../../addons/ofxYAML/libs/yaml-cpp/include/contrib/anchordict.h"; sourceTree = SOURCE_ROOT; };
+		EEEDB65194C391C1BEF0B2A3 /* impl.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = impl.h; path = "../../../addons/ofxYAML/libs/yaml-cpp/include/node/impl.h"; sourceTree = SOURCE_ROOT; };
+		FFF83150EDFA36160FF173F7 /* mark.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = mark.h; path = "../../../addons/ofxYAML/libs/yaml-cpp/include/mark.h"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E4B69B590A3A1756003C02F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4328149138ABC9F0047C5CB /* openFrameworksDebug.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09C64306A11F2E72AFEB9F05 /* contrib */ = {
+			isa = PBXGroup;
+			children = (
+				EBE37EAF16EE5942009C9C2F /* anchordict.h */,
+				72BF674908559276FB302F64 /* graphbuilder.h */,
+			);
+			name = contrib;
+			sourceTree = "<group>";
+		};
+		6879FA28605438D9581840F1 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				B9CF58F175E543FC497A4188 /* anchor.h */,
+				C22C91627577D76F80B5168E /* binary.h */,
+				09C64306A11F2E72AFEB9F05 /* contrib */,
+				022AE7D644B6C8D72B79355A /* dll.h */,
+				9CD131B8F9CE8150CF7F9821 /* emitfromevents.h */,
+				0AF34E78B2988C95D037461B /* emitter.h */,
+				6E0236931BAF837F44B4E100 /* emitterdef.h */,
+				345C954A3C71FD324E5C56BC /* emittermanip.h */,
+				2A493A6E51D84FD947783ACA /* emitterstyle.h */,
+				2CD10A8F271CEB6042B01A34 /* eventhandler.h */,
+				34BA8C04C87F544C6F83504D /* exceptions.h */,
+				FFF83150EDFA36160FF173F7 /* mark.h */,
+				C07EC933AEACEE7CB8F44C81 /* node */,
+				E34BA04A49F59080DF5AAE14 /* noncopyable.h */,
+				D44B6732CC6839E1B1226EF9 /* null.h */,
+				6AAFAE2870B07C8C000D3077 /* ostream_wrapper.h */,
+				820CE049132FFD959FDD1A4D /* parser.h */,
+				476BAE14650FC6289736CB02 /* stlemitter.h */,
+				DF569252A160F7B005DD9CC8 /* traits.h */,
+				A5610CC0B38EA6717F4B1A2A /* yaml.h */,
+			);
+			name = include;
+			sourceTree = "<group>";
+		};
+		6948EE371B920CB800B5AC1A /* local_addons */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = local_addons;
+			sourceTree = "<group>";
+		};
+		81C9B734DC769EC5015E461C /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				B85FF84B55EEDC1CFF2BE97A /* yaml-cpp */,
+			);
+			name = libs;
+			sourceTree = "<group>";
+		};
+		ABB8613D2386729A62011A0A /* ofxYAML */ = {
+			isa = PBXGroup;
+			children = (
+				F5F4B8CAA6A5F59D3A188253 /* src */,
+				81C9B734DC769EC5015E461C /* libs */,
+			);
+			name = ofxYAML;
+			sourceTree = "<group>";
+		};
+		B85FF84B55EEDC1CFF2BE97A /* yaml-cpp */ = {
+			isa = PBXGroup;
+			children = (
+				6879FA28605438D9581840F1 /* include */,
+			);
+			name = "yaml-cpp";
+			sourceTree = "<group>";
+		};
+		BB4B014C10F69532006C3DED /* addons */ = {
+			isa = PBXGroup;
+			children = (
+				ABB8613D2386729A62011A0A /* ofxYAML */,
+			);
+			name = addons;
+			sourceTree = "<group>";
+		};
+		C07EC933AEACEE7CB8F44C81 /* node */ = {
+			isa = PBXGroup;
+			children = (
+				49ADFC656055B99967B756E5 /* convert.h */,
+				C10F828A79D00BE7473D2AFD /* detail */,
+				76305C2A2D12594585531AFF /* emit.h */,
+				EEEDB65194C391C1BEF0B2A3 /* impl.h */,
+				8E86EBA888B697A738A8308E /* iterator.h */,
+				66FE272D75167208D021C14B /* node.h */,
+				2D4AB73C5CBAF9BD5236107E /* parse.h */,
+				938C8C1D2B85694B151B969B /* ptr.h */,
+				A57127F8965F186E8D5D5EA3 /* type.h */,
+			);
+			name = node;
+			sourceTree = "<group>";
+		};
+		C10F828A79D00BE7473D2AFD /* detail */ = {
+			isa = PBXGroup;
+			children = (
+				32F32857A1327A81FE3FA3D4 /* bool_type.h */,
+				277A135CF2BDDC6019D6627C /* impl.h */,
+				B3B54050A70BDC628B184AC8 /* iterator.h */,
+				4DE761F5765491A12ABF10E2 /* iterator_fwd.h */,
+				883BAAD477BA5093693B5C2E /* memory.h */,
+				A3D31EFD66B64622B319FEA7 /* node.h */,
+				53AE183D8157265A84CCFF21 /* node_data.h */,
+				269C1AFF8C48E862CE8E489D /* node_iterator.h */,
+				9B9710233856EA58F7BBB4B5 /* node_ref.h */,
+			);
+			name = detail;
+			sourceTree = "<group>";
+		};
+		E4328144138ABC890047C5CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E4328148138ABC890047C5CB /* openFrameworksDebug.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E4B69B4A0A3A1720003C02F2 = {
+			isa = PBXGroup;
+			children = (
+				E4B6FCAD0C3E899E008CF71C /* openFrameworks-Info.plist */,
+				E4EB6923138AFD0F00A09F29 /* Project.xcconfig */,
+				E4B69E1C0A3A1BDC003C02F2 /* src */,
+				E4EEC9E9138DF44700A80321 /* openFrameworks */,
+				BB4B014C10F69532006C3DED /* addons */,
+				6948EE371B920CB800B5AC1A /* local_addons */,
+				E4B69B5B0A3A1756003C02F2 /* exampleDebug.app */,
+			);
+			sourceTree = "<group>";
+		};
+		E4B69E1C0A3A1BDC003C02F2 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				E4B69E1D0A3A1BDC003C02F2 /* main.cpp */,
+				E4B69E1E0A3A1BDC003C02F2 /* ofApp.cpp */,
+				E4B69E1F0A3A1BDC003C02F2 /* ofApp.h */,
+			);
+			path = src;
+			sourceTree = SOURCE_ROOT;
+		};
+		E4EEC9E9138DF44700A80321 /* openFrameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E4EB691F138AFCF100A09F29 /* CoreOF.xcconfig */,
+				E4328143138ABC890047C5CB /* openFrameworksLib.xcodeproj */,
+			);
+			name = openFrameworks;
+			sourceTree = "<group>";
+		};
+		F5F4B8CAA6A5F59D3A188253 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				5B5CC89AC3CC3FAC5823018C /* ofxYAML.cpp */,
+				CCB12392DFF2A912EA4F8B4F /* ofxYAML.h */,
+			);
+			name = src;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E4B69B5A0A3A1756003C02F2 /* example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4B69B5F0A3A1757003C02F2 /* Build configuration list for PBXNativeTarget "example" */;
+			buildPhases = (
+				E4B69B580A3A1756003C02F2 /* Sources */,
+				E4B69B590A3A1756003C02F2 /* Frameworks */,
+				E4B6FFFD0C3F9AB9008CF71C /* ShellScript */,
+				E4C2427710CC5ABF004149E2 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E4EEB9AC138B136A00A80321 /* PBXTargetDependency */,
+			);
+			name = example;
+			productName = myOFApp;
+			productReference = E4B69B5B0A3A1756003C02F2 /* exampleDebug.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E4B69B4C0A3A1720003C02F2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+			};
+			buildConfigurationList = E4B69B4D0A3A1720003C02F2 /* Build configuration list for PBXProject "example" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = E4B69B4A0A3A1720003C02F2;
+			productRefGroup = E4B69B4A0A3A1720003C02F2;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = E4328144138ABC890047C5CB /* Products */;
+					ProjectRef = E4328143138ABC890047C5CB /* openFrameworksLib.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				E4B69B5A0A3A1756003C02F2 /* example */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		E4328148138ABC890047C5CB /* openFrameworksDebug.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = openFrameworksDebug.a;
+			remoteRef = E4328147138ABC890047C5CB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E4B6FFFD0C3F9AB9008CF71C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "mkdir -p \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/Resources/\"\n# Copy default icon file into App/Resources\nrsync -aved \"$ICON_FILE\" \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/Resources/\"\n# Copy libfmod and change install directory for fmod to run\nrsync -aved ../../../libs/fmodex/lib/osx/libfmodex.dylib \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/Frameworks/\";\ninstall_name_tool -change @executable_path/libfmodex.dylib @executable_path/../Frameworks/libfmodex.dylib \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/MacOS/$PRODUCT_NAME\";\n# Copy GLUT framework (must remove for AppStore submissions)\nrsync -aved ../../../libs/glut/lib/osx/GLUT.framework \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/Frameworks/\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E4B69B580A3A1756003C02F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4B69E200A3A1BDC003C02F2 /* main.cpp in Sources */,
+				E4B69E210A3A1BDC003C02F2 /* ofApp.cpp in Sources */,
+				A55C9D85C40BFDACB5C444AA /* ofxYAML.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E4EEB9AC138B136A00A80321 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = openFrameworks;
+			targetProxy = E4EEB9AB138B136A00A80321 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E4B69B4E0A3A1720003C02F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4EB6923138AFD0F00A09F29 /* Project.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/bin/";
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				GCC_AUTO_VECTORIZATION = YES;
+				GCC_ENABLE_SSE3_EXTENSIONS = YES;
+				GCC_ENABLE_SUPPLEMENTAL_SSE3_INSTRUCTIONS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = YES;
+				GCC_WARN_ABOUT_INVALID_OFFSETOF_MACRO = NO;
+				GCC_WARN_ALLOW_INCOMPLETE_PROTOCOL = NO;
+				GCC_WARN_UNINITIALIZED_AUTOS = NO;
+				GCC_WARN_UNUSED_VALUE = NO;
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(OF_CORE_HEADERS)",
+					src,
+					"../../../addons/ofxYAML/libs/yaml-cpp/include",
+					../../../addons/ofxYAML/src,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-D__MACOSX_CORE__",
+					"-mtune=native",
+				);
+				OTHER_LDFLAGS = (
+					"$(OF_CORE_FRAMEWORKS)",
+					"$(OF_CORE_LIBS)",
+					"../../../addons/ofxYAML/libs/yaml-cpp/lib/osx/x64/libyaml-cpp.a",
+					"../../../addons/ofxYAML/libs/yaml-cpp/lib/osx/x86/libyaml-cpp.a",
+				);
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		E4B69B4F0A3A1720003C02F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4EB6923138AFD0F00A09F29 /* Project.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/bin/";
+				COPY_PHASE_STRIP = YES;
+				DEAD_CODE_STRIPPING = YES;
+				GCC_AUTO_VECTORIZATION = YES;
+				GCC_ENABLE_SSE3_EXTENSIONS = YES;
+				GCC_ENABLE_SUPPLEMENTAL_SSE3_INSTRUCTIONS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_UNROLL_LOOPS = YES;
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = YES;
+				GCC_WARN_ABOUT_INVALID_OFFSETOF_MACRO = NO;
+				GCC_WARN_ALLOW_INCOMPLETE_PROTOCOL = NO;
+				GCC_WARN_UNINITIALIZED_AUTOS = NO;
+				GCC_WARN_UNUSED_VALUE = NO;
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(OF_CORE_HEADERS)",
+					src,
+					"../../../addons/ofxYAML/libs/yaml-cpp/include",
+					../../../addons/ofxYAML/src,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-D__MACOSX_CORE__",
+					"-mtune=native",
+				);
+				OTHER_LDFLAGS = (
+					"$(OF_CORE_FRAMEWORKS)",
+					"$(OF_CORE_LIBS)",
+					"../../../addons/ofxYAML/libs/yaml-cpp/lib/osx/x64/libyaml-cpp.a",
+					"../../../addons/ofxYAML/libs/yaml-cpp/lib/osx/x86/libyaml-cpp.a",
+				);
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		E4B69B600A3A1757003C02F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4EB6923138AFD0F00A09F29 /* Project.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+				);
+				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/../../../libs/glut/lib/osx\"";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_MODEL_TUNING = NONE;
+				HEADER_SEARCH_PATHS = (
+					"$(OF_CORE_HEADERS)",
+					src,
+					"../../../addons/ofxYAML/libs/yaml-cpp/include",
+					../../../addons/ofxYAML/src,
+				);
+				ICON = "$(ICON_NAME_DEBUG)";
+				ICON_FILE = "$(ICON_FILE_PATH)$(ICON)";
+				INFOPLIST_FILE = "openFrameworks-Info.plist";
+				INSTALL_PATH = /Applications;
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				OTHER_LDFLAGS = (
+					"$(OF_CORE_FRAMEWORKS)",
+					"$(OF_CORE_LIBS)",
+					"../../../addons/ofxYAML/libs/yaml-cpp/lib/osx/x64/libyaml-cpp.a",
+					"../../../addons/ofxYAML/libs/yaml-cpp/lib/osx/x86/libyaml-cpp.a",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)Debug";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E4B69B610A3A1757003C02F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4EB6923138AFD0F00A09F29 /* Project.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+				);
+				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/../../../libs/glut/lib/osx\"";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_MODEL_TUNING = NONE;
+				HEADER_SEARCH_PATHS = (
+					"$(OF_CORE_HEADERS)",
+					src,
+					"../../../addons/ofxYAML/libs/yaml-cpp/include",
+					../../../addons/ofxYAML/src,
+				);
+				ICON = "$(ICON_NAME_RELEASE)";
+				ICON_FILE = "$(ICON_FILE_PATH)$(ICON)";
+				INFOPLIST_FILE = "openFrameworks-Info.plist";
+				INSTALL_PATH = /Applications;
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				OTHER_LDFLAGS = (
+					"$(OF_CORE_FRAMEWORKS)",
+					"$(OF_CORE_LIBS)",
+					"../../../addons/ofxYAML/libs/yaml-cpp/lib/osx/x64/libyaml-cpp.a",
+					"../../../addons/ofxYAML/libs/yaml-cpp/lib/osx/x86/libyaml-cpp.a",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+				baseConfigurationReference = E4EB6923138AFD0F00A09F29;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E4B69B4D0A3A1720003C02F2 /* Build configuration list for PBXProject "example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4B69B4E0A3A1720003C02F2 /* Debug */,
+				E4B69B4F0A3A1720003C02F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4B69B5F0A3A1757003C02F2 /* Build configuration list for PBXNativeTarget "example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4B69B600A3A1757003C02F2 /* Debug */,
+				E4B69B610A3A1757003C02F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E4B69B4C0A3A1720003C02F2 /* Project object */;
+}

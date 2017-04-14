@@ -1,0 +1,168 @@
+<?xml version="1.0"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<ClCompile Include="src\ofApp.cpp">
+			<Filter>src</Filter>
+		</ClCompile>
+		<ClCompile Include="src\main.cpp">
+			<Filter>src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxYAML\src\ofxYAML.cpp">
+			<Filter>addons\ofxYAML\src</Filter>
+		</ClCompile>
+	</ItemGroup>
+	<ItemGroup>
+		<Filter Include="src">
+			<UniqueIdentifier>{d8376475-7454-4a24-b08a-aac121d3ad6f}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons">
+			<UniqueIdentifier>{71834F65-F3A9-211E-73B8-DC85}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxYAML">
+			<UniqueIdentifier>{093DD2F8-FBDB-E383-343D-79E6}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxYAML\src">
+			<UniqueIdentifier>{81C994F2-DDE8-0B43-BE4D-639B}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxYAML\libs">
+			<UniqueIdentifier>{EDBE27DF-2B00-A603-F6D5-7890}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxYAML\libs\yaml-cpp">
+			<UniqueIdentifier>{37EE59AE-2CD2-4D1A-7EE7-5BB6}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxYAML\libs\yaml-cpp\include">
+			<UniqueIdentifier>{04063231-5ED4-E47C-9E95-0E08}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxYAML\libs\yaml-cpp\include\contrib">
+			<UniqueIdentifier>{E1777A05-D6A6-2AD5-5EC5-5070}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxYAML\libs\yaml-cpp\include\node">
+			<UniqueIdentifier>{04679C37-C932-CFF5-9745-FA89}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxYAML\libs\yaml-cpp\include\node\detail">
+			<UniqueIdentifier>{094FBF42-2EAC-6D91-F0A5-AC24}</UniqueIdentifier>
+		</Filter>
+	</ItemGroup>
+	<ItemGroup>
+		<ClInclude Include="src\ofApp.h">
+			<Filter>src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxYAML\src\ofxYAML.h">
+			<Filter>addons\ofxYAML\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxYAML\libs\yaml-cpp\include\anchor.h">
+			<Filter>addons\ofxYAML\libs\yaml-cpp\include</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxYAML\libs\yaml-cpp\include\binary.h">
+			<Filter>addons\ofxYAML\libs\yaml-cpp\include</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxYAML\libs\yaml-cpp\include\contrib\anchordict.h">
+			<Filter>addons\ofxYAML\libs\yaml-cpp\include\contrib</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxYAML\libs\yaml-cpp\include\contrib\graphbuilder.h">
+			<Filter>addons\ofxYAML\libs\yaml-cpp\include\contrib</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxYAML\libs\yaml-cpp\include\dll.h">
+			<Filter>addons\ofxYAML\libs\yaml-cpp\include</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxYAML\libs\yaml-cpp\include\emitfromevents.h">
+			<Filter>addons\ofxYAML\libs\yaml-cpp\include</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxYAML\libs\yaml-cpp\include\emitter.h">
+			<Filter>addons\ofxYAML\libs\yaml-cpp\include</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxYAML\libs\yaml-cpp\include\emitterdef.h">
+			<Filter>addons\ofxYAML\libs\yaml-cpp\include</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxYAML\libs\yaml-cpp\include\emittermanip.h">
+			<Filter>addons\ofxYAML\libs\yaml-cpp\include</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxYAML\libs\yaml-cpp\include\emitterstyle.h">
+			<Filter>addons\ofxYAML\libs\yaml-cpp\include</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxYAML\libs\yaml-cpp\include\eventhandler.h">
+			<Filter>addons\ofxYAML\libs\yaml-cpp\include</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxYAML\libs\yaml-cpp\include\exceptions.h">
+			<Filter>addons\ofxYAML\libs\yaml-cpp\include</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxYAML\libs\yaml-cpp\include\mark.h">
+			<Filter>addons\ofxYAML\libs\yaml-cpp\include</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxYAML\libs\yaml-cpp\include\node\convert.h">
+			<Filter>addons\ofxYAML\libs\yaml-cpp\include\node</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxYAML\libs\yaml-cpp\include\node\detail\bool_type.h">
+			<Filter>addons\ofxYAML\libs\yaml-cpp\include\node\detail</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxYAML\libs\yaml-cpp\include\node\detail\impl.h">
+			<Filter>addons\ofxYAML\libs\yaml-cpp\include\node\detail</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxYAML\libs\yaml-cpp\include\node\detail\iterator.h">
+			<Filter>addons\ofxYAML\libs\yaml-cpp\include\node\detail</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxYAML\libs\yaml-cpp\include\node\detail\iterator_fwd.h">
+			<Filter>addons\ofxYAML\libs\yaml-cpp\include\node\detail</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxYAML\libs\yaml-cpp\include\node\detail\memory.h">
+			<Filter>addons\ofxYAML\libs\yaml-cpp\include\node\detail</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxYAML\libs\yaml-cpp\include\node\detail\node.h">
+			<Filter>addons\ofxYAML\libs\yaml-cpp\include\node\detail</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxYAML\libs\yaml-cpp\include\node\detail\node_data.h">
+			<Filter>addons\ofxYAML\libs\yaml-cpp\include\node\detail</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxYAML\libs\yaml-cpp\include\node\detail\node_iterator.h">
+			<Filter>addons\ofxYAML\libs\yaml-cpp\include\node\detail</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxYAML\libs\yaml-cpp\include\node\detail\node_ref.h">
+			<Filter>addons\ofxYAML\libs\yaml-cpp\include\node\detail</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxYAML\libs\yaml-cpp\include\node\emit.h">
+			<Filter>addons\ofxYAML\libs\yaml-cpp\include\node</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxYAML\libs\yaml-cpp\include\node\impl.h">
+			<Filter>addons\ofxYAML\libs\yaml-cpp\include\node</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxYAML\libs\yaml-cpp\include\node\iterator.h">
+			<Filter>addons\ofxYAML\libs\yaml-cpp\include\node</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxYAML\libs\yaml-cpp\include\node\node.h">
+			<Filter>addons\ofxYAML\libs\yaml-cpp\include\node</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxYAML\libs\yaml-cpp\include\node\parse.h">
+			<Filter>addons\ofxYAML\libs\yaml-cpp\include\node</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxYAML\libs\yaml-cpp\include\node\ptr.h">
+			<Filter>addons\ofxYAML\libs\yaml-cpp\include\node</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxYAML\libs\yaml-cpp\include\node\type.h">
+			<Filter>addons\ofxYAML\libs\yaml-cpp\include\node</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxYAML\libs\yaml-cpp\include\noncopyable.h">
+			<Filter>addons\ofxYAML\libs\yaml-cpp\include</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxYAML\libs\yaml-cpp\include\null.h">
+			<Filter>addons\ofxYAML\libs\yaml-cpp\include</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxYAML\libs\yaml-cpp\include\ostream_wrapper.h">
+			<Filter>addons\ofxYAML\libs\yaml-cpp\include</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxYAML\libs\yaml-cpp\include\parser.h">
+			<Filter>addons\ofxYAML\libs\yaml-cpp\include</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxYAML\libs\yaml-cpp\include\stlemitter.h">
+			<Filter>addons\ofxYAML\libs\yaml-cpp\include</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxYAML\libs\yaml-cpp\include\traits.h">
+			<Filter>addons\ofxYAML\libs\yaml-cpp\include</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxYAML\libs\yaml-cpp\include\yaml.h">
+			<Filter>addons\ofxYAML\libs\yaml-cpp\include</Filter>
+		</ClInclude>
+	</ItemGroup>
+	<ItemGroup>
+		<ResourceCompile Include="icon.rc" />
+	</ItemGroup>
+</Project>
