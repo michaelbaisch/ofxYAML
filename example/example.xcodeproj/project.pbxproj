@@ -1,548 +1,1660 @@
-// !$*UTF8*$!
-{
-	archiveVersion = 1;
-	classes = {
-	};
-	objectVersion = 46;
-	objects = {
+<?xml version="1.0"?>
+<plist version="1.0">
+	<dict>
+		<key>archiveVersion</key>
+		<string>1</string>
+		<key>classes</key>
+		<dict />
+		<key>objectVersion</key>
+		<string>46</string>
+		<key>objects</key>
+		<dict>
+			<key>C22C91627577D76F80B5168E</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>4</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>binary.h</string>
+				<key>path</key>
+				<string>../../../addons/ofxYAML/libs/yaml-cpp/include/binary.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>476BAE14650FC6289736CB02</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>4</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>stlemitter.h</string>
+				<key>path</key>
+				<string>../../../addons/ofxYAML/libs/yaml-cpp/include/stlemitter.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>6AAFAE2870B07C8C000D3077</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>4</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>ostream_wrapper.h</string>
+				<key>path</key>
+				<string>../../../addons/ofxYAML/libs/yaml-cpp/include/ostream_wrapper.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>8E86EBA888B697A738A8308E</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>4</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>iterator.h</string>
+				<key>path</key>
+				<string>../../../addons/ofxYAML/libs/yaml-cpp/include/node/iterator.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>76305C2A2D12594585531AFF</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>4</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>emit.h</string>
+				<key>path</key>
+				<string>../../../addons/ofxYAML/libs/yaml-cpp/include/node/emit.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>EEEDB65194C391C1BEF0B2A3</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>4</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>impl.h</string>
+				<key>path</key>
+				<string>../../../addons/ofxYAML/libs/yaml-cpp/include/node/impl.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>49ADFC656055B99967B756E5</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>4</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>convert.h</string>
+				<key>path</key>
+				<string>../../../addons/ofxYAML/libs/yaml-cpp/include/node/convert.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>938C8C1D2B85694B151B969B</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>4</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>ptr.h</string>
+				<key>path</key>
+				<string>../../../addons/ofxYAML/libs/yaml-cpp/include/node/ptr.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>B3B54050A70BDC628B184AC8</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>4</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>iterator.h</string>
+				<key>path</key>
+				<string>../../../addons/ofxYAML/libs/yaml-cpp/include/node/detail/iterator.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>4DE761F5765491A12ABF10E2</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>4</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>iterator_fwd.h</string>
+				<key>path</key>
+				<string>../../../addons/ofxYAML/libs/yaml-cpp/include/node/detail/iterator_fwd.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>277A135CF2BDDC6019D6627C</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>4</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>impl.h</string>
+				<key>path</key>
+				<string>../../../addons/ofxYAML/libs/yaml-cpp/include/node/detail/impl.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>269C1AFF8C48E862CE8E489D</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>4</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>node_iterator.h</string>
+				<key>path</key>
+				<string>../../../addons/ofxYAML/libs/yaml-cpp/include/node/detail/node_iterator.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>883BAAD477BA5093693B5C2E</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>4</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>memory.h</string>
+				<key>path</key>
+				<string>../../../addons/ofxYAML/libs/yaml-cpp/include/node/detail/memory.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>32F32857A1327A81FE3FA3D4</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>4</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>bool_type.h</string>
+				<key>path</key>
+				<string>../../../addons/ofxYAML/libs/yaml-cpp/include/node/detail/bool_type.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>A3D31EFD66B64622B319FEA7</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>4</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>node.h</string>
+				<key>path</key>
+				<string>../../../addons/ofxYAML/libs/yaml-cpp/include/node/detail/node.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>9B9710233856EA58F7BBB4B5</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>4</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>node_ref.h</string>
+				<key>path</key>
+				<string>../../../addons/ofxYAML/libs/yaml-cpp/include/node/detail/node_ref.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>C10F828A79D00BE7473D2AFD</key>
+			<dict>
+				<key>children</key>
+				<array>
+					<string>53AE183D8157265A84CCFF21</string>
+					<string>9B9710233856EA58F7BBB4B5</string>
+					<string>A3D31EFD66B64622B319FEA7</string>
+					<string>32F32857A1327A81FE3FA3D4</string>
+					<string>883BAAD477BA5093693B5C2E</string>
+					<string>269C1AFF8C48E862CE8E489D</string>
+					<string>277A135CF2BDDC6019D6627C</string>
+					<string>4DE761F5765491A12ABF10E2</string>
+					<string>B3B54050A70BDC628B184AC8</string>
+				</array>
+				<key>isa</key>
+				<string>PBXGroup</string>
+				<key>name</key>
+				<string>detail</string>
+				<key>sourceTree</key>
+				<string>&lt;group&gt;</string>
+			</dict>
+			<key>53AE183D8157265A84CCFF21</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>4</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>node_data.h</string>
+				<key>path</key>
+				<string>../../../addons/ofxYAML/libs/yaml-cpp/include/node/detail/node_data.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>66FE272D75167208D021C14B</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>4</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>node.h</string>
+				<key>path</key>
+				<string>../../../addons/ofxYAML/libs/yaml-cpp/include/node/node.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>2D4AB73C5CBAF9BD5236107E</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>4</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>parse.h</string>
+				<key>path</key>
+				<string>../../../addons/ofxYAML/libs/yaml-cpp/include/node/parse.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>C07EC933AEACEE7CB8F44C81</key>
+			<dict>
+				<key>children</key>
+				<array>
+					<string>A57127F8965F186E8D5D5EA3</string>
+					<string>2D4AB73C5CBAF9BD5236107E</string>
+					<string>66FE272D75167208D021C14B</string>
+					<string>C10F828A79D00BE7473D2AFD</string>
+					<string>938C8C1D2B85694B151B969B</string>
+					<string>49ADFC656055B99967B756E5</string>
+					<string>EEEDB65194C391C1BEF0B2A3</string>
+					<string>76305C2A2D12594585531AFF</string>
+					<string>8E86EBA888B697A738A8308E</string>
+				</array>
+				<key>isa</key>
+				<string>PBXGroup</string>
+				<key>name</key>
+				<string>node</string>
+				<key>sourceTree</key>
+				<string>&lt;group&gt;</string>
+			</dict>
+			<key>A57127F8965F186E8D5D5EA3</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>4</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>type.h</string>
+				<key>path</key>
+				<string>../../../addons/ofxYAML/libs/yaml-cpp/include/node/type.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>A5610CC0B38EA6717F4B1A2A</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>4</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>yaml.h</string>
+				<key>path</key>
+				<string>../../../addons/ofxYAML/libs/yaml-cpp/include/yaml.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>E34BA04A49F59080DF5AAE14</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>4</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>noncopyable.h</string>
+				<key>path</key>
+				<string>../../../addons/ofxYAML/libs/yaml-cpp/include/noncopyable.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>EBE37EAF16EE5942009C9C2F</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>4</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>anchordict.h</string>
+				<key>path</key>
+				<string>../../../addons/ofxYAML/libs/yaml-cpp/include/contrib/anchordict.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>09C64306A11F2E72AFEB9F05</key>
+			<dict>
+				<key>children</key>
+				<array>
+					<string>72BF674908559276FB302F64</string>
+					<string>EBE37EAF16EE5942009C9C2F</string>
+				</array>
+				<key>isa</key>
+				<string>PBXGroup</string>
+				<key>name</key>
+				<string>contrib</string>
+				<key>sourceTree</key>
+				<string>&lt;group&gt;</string>
+			</dict>
+			<key>72BF674908559276FB302F64</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>4</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>graphbuilder.h</string>
+				<key>path</key>
+				<string>../../../addons/ofxYAML/libs/yaml-cpp/include/contrib/graphbuilder.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>022AE7D644B6C8D72B79355A</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>4</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>dll.h</string>
+				<key>path</key>
+				<string>../../../addons/ofxYAML/libs/yaml-cpp/include/dll.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>9CD131B8F9CE8150CF7F9821</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>4</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>emitfromevents.h</string>
+				<key>path</key>
+				<string>../../../addons/ofxYAML/libs/yaml-cpp/include/emitfromevents.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>345C954A3C71FD324E5C56BC</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>4</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>emittermanip.h</string>
+				<key>path</key>
+				<string>../../../addons/ofxYAML/libs/yaml-cpp/include/emittermanip.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>2A493A6E51D84FD947783ACA</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>4</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>emitterstyle.h</string>
+				<key>path</key>
+				<string>../../../addons/ofxYAML/libs/yaml-cpp/include/emitterstyle.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>34BA8C04C87F544C6F83504D</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>4</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>exceptions.h</string>
+				<key>path</key>
+				<string>../../../addons/ofxYAML/libs/yaml-cpp/include/exceptions.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>D44B6732CC6839E1B1226EF9</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>4</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>null.h</string>
+				<key>path</key>
+				<string>../../../addons/ofxYAML/libs/yaml-cpp/include/null.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>820CE049132FFD959FDD1A4D</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>4</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>parser.h</string>
+				<key>path</key>
+				<string>../../../addons/ofxYAML/libs/yaml-cpp/include/parser.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>6E0236931BAF837F44B4E100</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>4</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>emitterdef.h</string>
+				<key>path</key>
+				<string>../../../addons/ofxYAML/libs/yaml-cpp/include/emitterdef.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>FFF83150EDFA36160FF173F7</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>4</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>mark.h</string>
+				<key>path</key>
+				<string>../../../addons/ofxYAML/libs/yaml-cpp/include/mark.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>B9CF58F175E543FC497A4188</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>4</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>anchor.h</string>
+				<key>path</key>
+				<string>../../../addons/ofxYAML/libs/yaml-cpp/include/anchor.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>0AF34E78B2988C95D037461B</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>4</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>emitter.h</string>
+				<key>path</key>
+				<string>../../../addons/ofxYAML/libs/yaml-cpp/include/emitter.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>2CD10A8F271CEB6042B01A34</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>4</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>eventhandler.h</string>
+				<key>path</key>
+				<string>../../../addons/ofxYAML/libs/yaml-cpp/include/eventhandler.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>6879FA28605438D9581840F1</key>
+			<dict>
+				<key>children</key>
+				<array>
+					<string>DF569252A160F7B005DD9CC8</string>
+					<string>2CD10A8F271CEB6042B01A34</string>
+					<string>0AF34E78B2988C95D037461B</string>
+					<string>B9CF58F175E543FC497A4188</string>
+					<string>FFF83150EDFA36160FF173F7</string>
+					<string>6E0236931BAF837F44B4E100</string>
+					<string>820CE049132FFD959FDD1A4D</string>
+					<string>D44B6732CC6839E1B1226EF9</string>
+					<string>34BA8C04C87F544C6F83504D</string>
+					<string>2A493A6E51D84FD947783ACA</string>
+					<string>345C954A3C71FD324E5C56BC</string>
+					<string>9CD131B8F9CE8150CF7F9821</string>
+					<string>022AE7D644B6C8D72B79355A</string>
+					<string>09C64306A11F2E72AFEB9F05</string>
+					<string>E34BA04A49F59080DF5AAE14</string>
+					<string>A5610CC0B38EA6717F4B1A2A</string>
+					<string>C07EC933AEACEE7CB8F44C81</string>
+					<string>6AAFAE2870B07C8C000D3077</string>
+					<string>476BAE14650FC6289736CB02</string>
+					<string>C22C91627577D76F80B5168E</string>
+				</array>
+				<key>isa</key>
+				<string>PBXGroup</string>
+				<key>name</key>
+				<string>include</string>
+				<key>sourceTree</key>
+				<string>&lt;group&gt;</string>
+			</dict>
+			<key>B85FF84B55EEDC1CFF2BE97A</key>
+			<dict>
+				<key>children</key>
+				<array>
+					<string>6879FA28605438D9581840F1</string>
+				</array>
+				<key>isa</key>
+				<string>PBXGroup</string>
+				<key>name</key>
+				<string>yaml-cpp</string>
+				<key>sourceTree</key>
+				<string>&lt;group&gt;</string>
+			</dict>
+			<key>81C9B734DC769EC5015E461C</key>
+			<dict>
+				<key>children</key>
+				<array>
+					<string>B85FF84B55EEDC1CFF2BE97A</string>
+				</array>
+				<key>isa</key>
+				<string>PBXGroup</string>
+				<key>name</key>
+				<string>libs</string>
+				<key>sourceTree</key>
+				<string>&lt;group&gt;</string>
+			</dict>
+			<key>DF569252A160F7B005DD9CC8</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>4</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>traits.h</string>
+				<key>path</key>
+				<string>../../../addons/ofxYAML/libs/yaml-cpp/include/traits.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>A55C9D85C40BFDACB5C444AA</key>
+			<dict>
+				<key>fileRef</key>
+				<string>5B5CC89AC3CC3FAC5823018C</string>
+				<key>isa</key>
+				<string>PBXBuildFile</string>
+			</dict>
+			<key>5B5CC89AC3CC3FAC5823018C</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.cpp.cpp</string>
+				<key>fileEncoding</key>
+				<string>4</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>ofxYAML.cpp</string>
+				<key>path</key>
+				<string>../../../addons/ofxYAML/src/ofxYAML.cpp</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>F5F4B8CAA6A5F59D3A188253</key>
+			<dict>
+				<key>children</key>
+				<array>
+					<string>CCB12392DFF2A912EA4F8B4F</string>
+					<string>5B5CC89AC3CC3FAC5823018C</string>
+				</array>
+				<key>isa</key>
+				<string>PBXGroup</string>
+				<key>name</key>
+				<string>src</string>
+				<key>sourceTree</key>
+				<string>&lt;group&gt;</string>
+			</dict>
+			<key>ABB8613D2386729A62011A0A</key>
+			<dict>
+				<key>children</key>
+				<array>
+					<string>F5F4B8CAA6A5F59D3A188253</string>
+					<string>81C9B734DC769EC5015E461C</string>
+				</array>
+				<key>isa</key>
+				<string>PBXGroup</string>
+				<key>name</key>
+				<string>ofxYAML</string>
+				<key>sourceTree</key>
+				<string>&lt;group&gt;</string>
+			</dict>
+			<key>CCB12392DFF2A912EA4F8B4F</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>4</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>ofxYAML.h</string>
+				<key>path</key>
+				<string>../../../addons/ofxYAML/src/ofxYAML.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>6948EE371B920CB800B5AC1A</key>
+			<dict>
+				<key>children</key>
+				<array />
+				<key>isa</key>
+				<string>PBXGroup</string>
+				<key>name</key>
+				<string>local_addons</string>
+				<key>sourceTree</key>
+				<string>&lt;group&gt;</string>
+			</dict>
+			<key>8466F1851C04CA0E00918B1C</key>
+			<dict>
+				<key>buildActionMask</key>
+				<string>12</string>
+				<key>files</key>
+				<array />
+				<key>inputPaths</key>
+				<array />
+				<key>isa</key>
+				<string>PBXShellScriptBuildPhase</string>
+				<key>outputPaths</key>
+				<array />
+				<key>runOnlyForDeploymentPostprocessing</key>
+				<string>0</string>
+				<key>shellPath</key>
+				<string>/bin/sh</string>
+				<key>shellScript</key>
+				<string>echo "$GCC_PREPROCESSOR_DEFINITIONS";
+APPSTORE=`expr "$GCC_PREPROCESSOR_DEFINITIONS" : ".*APPSTORE=\([0-9]*\)"`
+if [ -z "$APPSTORE" ] ; then
+echo "Note: Not copying bin/data to App Package or doing App Code signing. Use AppStore target for AppStore distribution";
+else
+# Copy bin/data into App/Resources
+rsync -avz --exclude='.DS_Store' "${SRCROOT}/bin/data/" "${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/data/"
 
-/* Begin PBXBuildFile section */
-		A55C9D85C40BFDACB5C444AA /* ofxYAML.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5B5CC89AC3CC3FAC5823018C /* ofxYAML.cpp */; };
-		E4328149138ABC9F0047C5CB /* openFrameworksDebug.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E4328148138ABC890047C5CB /* openFrameworksDebug.a */; };
-		E4B69E200A3A1BDC003C02F2 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4B69E1D0A3A1BDC003C02F2 /* main.cpp */; };
-		E4B69E210A3A1BDC003C02F2 /* ofApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4B69E1E0A3A1BDC003C02F2 /* ofApp.cpp */; };
-/* End PBXBuildFile section */
+# ---- Code Sign App Package ----
 
-/* Begin PBXContainerItemProxy section */
-		E4328147138ABC890047C5CB /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = E4328143138ABC890047C5CB /* openFrameworksLib.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = E4B27C1510CBEB8E00536013;
-			remoteInfo = openFrameworks;
-		};
-		E4EEB9AB138B136A00A80321 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = E4328143138ABC890047C5CB /* openFrameworksLib.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = E4B27C1410CBEB8E00536013;
-			remoteInfo = openFrameworks;
-		};
-/* End PBXContainerItemProxy section */
+# WARNING: You may have to run Clean in Xcode after changing CODE_SIGN_IDENTITY!
 
-/* Begin PBXCopyFilesBuildPhase section */
-		E4C2427710CC5ABF004149E2 /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
+# Verify that $CODE_SIGN_IDENTITY is set
+if [ -z "${CODE_SIGN_IDENTITY}" ] ; then
+echo "CODE_SIGN_IDENTITY needs to be set for framework code-signing"
+exit 0
+fi
 
-/* Begin PBXFileReference section */
-		022AE7D644B6C8D72B79355A /* dll.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = dll.h; path = "../../../addons/ofxYAML/libs/yaml-cpp/include/dll.h"; sourceTree = SOURCE_ROOT; };
-		0AF34E78B2988C95D037461B /* emitter.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = emitter.h; path = "../../../addons/ofxYAML/libs/yaml-cpp/include/emitter.h"; sourceTree = SOURCE_ROOT; };
-		269C1AFF8C48E862CE8E489D /* node_iterator.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = node_iterator.h; path = "../../../addons/ofxYAML/libs/yaml-cpp/include/node/detail/node_iterator.h"; sourceTree = SOURCE_ROOT; };
-		277A135CF2BDDC6019D6627C /* impl.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = impl.h; path = "../../../addons/ofxYAML/libs/yaml-cpp/include/node/detail/impl.h"; sourceTree = SOURCE_ROOT; };
-		2A493A6E51D84FD947783ACA /* emitterstyle.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = emitterstyle.h; path = "../../../addons/ofxYAML/libs/yaml-cpp/include/emitterstyle.h"; sourceTree = SOURCE_ROOT; };
-		2CD10A8F271CEB6042B01A34 /* eventhandler.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = eventhandler.h; path = "../../../addons/ofxYAML/libs/yaml-cpp/include/eventhandler.h"; sourceTree = SOURCE_ROOT; };
-		2D4AB73C5CBAF9BD5236107E /* parse.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = parse.h; path = "../../../addons/ofxYAML/libs/yaml-cpp/include/node/parse.h"; sourceTree = SOURCE_ROOT; };
-		32F32857A1327A81FE3FA3D4 /* bool_type.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = bool_type.h; path = "../../../addons/ofxYAML/libs/yaml-cpp/include/node/detail/bool_type.h"; sourceTree = SOURCE_ROOT; };
-		345C954A3C71FD324E5C56BC /* emittermanip.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = emittermanip.h; path = "../../../addons/ofxYAML/libs/yaml-cpp/include/emittermanip.h"; sourceTree = SOURCE_ROOT; };
-		34BA8C04C87F544C6F83504D /* exceptions.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = exceptions.h; path = "../../../addons/ofxYAML/libs/yaml-cpp/include/exceptions.h"; sourceTree = SOURCE_ROOT; };
-		476BAE14650FC6289736CB02 /* stlemitter.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = stlemitter.h; path = "../../../addons/ofxYAML/libs/yaml-cpp/include/stlemitter.h"; sourceTree = SOURCE_ROOT; };
-		49ADFC656055B99967B756E5 /* convert.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = convert.h; path = "../../../addons/ofxYAML/libs/yaml-cpp/include/node/convert.h"; sourceTree = SOURCE_ROOT; };
-		4DE761F5765491A12ABF10E2 /* iterator_fwd.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = iterator_fwd.h; path = "../../../addons/ofxYAML/libs/yaml-cpp/include/node/detail/iterator_fwd.h"; sourceTree = SOURCE_ROOT; };
-		53AE183D8157265A84CCFF21 /* node_data.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = node_data.h; path = "../../../addons/ofxYAML/libs/yaml-cpp/include/node/detail/node_data.h"; sourceTree = SOURCE_ROOT; };
-		5B5CC89AC3CC3FAC5823018C /* ofxYAML.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxYAML.cpp; path = ../../../addons/ofxYAML/src/ofxYAML.cpp; sourceTree = SOURCE_ROOT; };
-		66FE272D75167208D021C14B /* node.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = node.h; path = "../../../addons/ofxYAML/libs/yaml-cpp/include/node/node.h"; sourceTree = SOURCE_ROOT; };
-		6AAFAE2870B07C8C000D3077 /* ostream_wrapper.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ostream_wrapper.h; path = "../../../addons/ofxYAML/libs/yaml-cpp/include/ostream_wrapper.h"; sourceTree = SOURCE_ROOT; };
-		6E0236931BAF837F44B4E100 /* emitterdef.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = emitterdef.h; path = "../../../addons/ofxYAML/libs/yaml-cpp/include/emitterdef.h"; sourceTree = SOURCE_ROOT; };
-		72BF674908559276FB302F64 /* graphbuilder.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = graphbuilder.h; path = "../../../addons/ofxYAML/libs/yaml-cpp/include/contrib/graphbuilder.h"; sourceTree = SOURCE_ROOT; };
-		76305C2A2D12594585531AFF /* emit.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = emit.h; path = "../../../addons/ofxYAML/libs/yaml-cpp/include/node/emit.h"; sourceTree = SOURCE_ROOT; };
-		820CE049132FFD959FDD1A4D /* parser.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = parser.h; path = "../../../addons/ofxYAML/libs/yaml-cpp/include/parser.h"; sourceTree = SOURCE_ROOT; };
-		883BAAD477BA5093693B5C2E /* memory.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = memory.h; path = "../../../addons/ofxYAML/libs/yaml-cpp/include/node/detail/memory.h"; sourceTree = SOURCE_ROOT; };
-		8E86EBA888B697A738A8308E /* iterator.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = iterator.h; path = "../../../addons/ofxYAML/libs/yaml-cpp/include/node/iterator.h"; sourceTree = SOURCE_ROOT; };
-		938C8C1D2B85694B151B969B /* ptr.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ptr.h; path = "../../../addons/ofxYAML/libs/yaml-cpp/include/node/ptr.h"; sourceTree = SOURCE_ROOT; };
-		9B9710233856EA58F7BBB4B5 /* node_ref.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = node_ref.h; path = "../../../addons/ofxYAML/libs/yaml-cpp/include/node/detail/node_ref.h"; sourceTree = SOURCE_ROOT; };
-		9CD131B8F9CE8150CF7F9821 /* emitfromevents.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = emitfromevents.h; path = "../../../addons/ofxYAML/libs/yaml-cpp/include/emitfromevents.h"; sourceTree = SOURCE_ROOT; };
-		A3D31EFD66B64622B319FEA7 /* node.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = node.h; path = "../../../addons/ofxYAML/libs/yaml-cpp/include/node/detail/node.h"; sourceTree = SOURCE_ROOT; };
-		A5610CC0B38EA6717F4B1A2A /* yaml.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = yaml.h; path = "../../../addons/ofxYAML/libs/yaml-cpp/include/yaml.h"; sourceTree = SOURCE_ROOT; };
-		A57127F8965F186E8D5D5EA3 /* type.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = type.h; path = "../../../addons/ofxYAML/libs/yaml-cpp/include/node/type.h"; sourceTree = SOURCE_ROOT; };
-		B3B54050A70BDC628B184AC8 /* iterator.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = iterator.h; path = "../../../addons/ofxYAML/libs/yaml-cpp/include/node/detail/iterator.h"; sourceTree = SOURCE_ROOT; };
-		B9CF58F175E543FC497A4188 /* anchor.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = anchor.h; path = "../../../addons/ofxYAML/libs/yaml-cpp/include/anchor.h"; sourceTree = SOURCE_ROOT; };
-		C22C91627577D76F80B5168E /* binary.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = binary.h; path = "../../../addons/ofxYAML/libs/yaml-cpp/include/binary.h"; sourceTree = SOURCE_ROOT; };
-		CCB12392DFF2A912EA4F8B4F /* ofxYAML.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxYAML.h; path = ../../../addons/ofxYAML/src/ofxYAML.h; sourceTree = SOURCE_ROOT; };
-		D44B6732CC6839E1B1226EF9 /* null.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = null.h; path = "../../../addons/ofxYAML/libs/yaml-cpp/include/null.h"; sourceTree = SOURCE_ROOT; };
-		DF569252A160F7B005DD9CC8 /* traits.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = traits.h; path = "../../../addons/ofxYAML/libs/yaml-cpp/include/traits.h"; sourceTree = SOURCE_ROOT; };
-		E34BA04A49F59080DF5AAE14 /* noncopyable.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = noncopyable.h; path = "../../../addons/ofxYAML/libs/yaml-cpp/include/noncopyable.h"; sourceTree = SOURCE_ROOT; };
-		E4328143138ABC890047C5CB /* openFrameworksLib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = openFrameworksLib.xcodeproj; path = ../../../libs/openFrameworksCompiled/project/osx/openFrameworksLib.xcodeproj; sourceTree = SOURCE_ROOT; };
-		E4B69B5B0A3A1756003C02F2 /* exampleDebug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = exampleDebug.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		E4B69E1D0A3A1BDC003C02F2 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = src/main.cpp; sourceTree = SOURCE_ROOT; };
-		E4B69E1E0A3A1BDC003C02F2 /* ofApp.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofApp.cpp; path = src/ofApp.cpp; sourceTree = SOURCE_ROOT; };
-		E4B69E1F0A3A1BDC003C02F2 /* ofApp.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = ofApp.h; path = src/ofApp.h; sourceTree = SOURCE_ROOT; };
-		E4B6FCAD0C3E899E008CF71C /* openFrameworks-Info.plist */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.plist.xml; path = "openFrameworks-Info.plist"; sourceTree = "<group>"; };
-		E4EB691F138AFCF100A09F29 /* CoreOF.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = CoreOF.xcconfig; path = ../../../libs/openFrameworksCompiled/project/osx/CoreOF.xcconfig; sourceTree = SOURCE_ROOT; };
-		E4EB6923138AFD0F00A09F29 /* Project.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Project.xcconfig; sourceTree = "<group>"; };
-		EBE37EAF16EE5942009C9C2F /* anchordict.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = anchordict.h; path = "../../../addons/ofxYAML/libs/yaml-cpp/include/contrib/anchordict.h"; sourceTree = SOURCE_ROOT; };
-		EEEDB65194C391C1BEF0B2A3 /* impl.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = impl.h; path = "../../../addons/ofxYAML/libs/yaml-cpp/include/node/impl.h"; sourceTree = SOURCE_ROOT; };
-		FFF83150EDFA36160FF173F7 /* mark.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = mark.h; path = "../../../addons/ofxYAML/libs/yaml-cpp/include/mark.h"; sourceTree = SOURCE_ROOT; };
-/* End PBXFileReference section */
+if [ -z "${CODE_SIGN_ENTITLEMENTS}" ] ; then
+echo "CODE_SIGN_ENTITLEMENTS needs to be set for framework code-signing!"
 
-/* Begin PBXFrameworksBuildPhase section */
-		E4B69B590A3A1756003C02F2 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E4328149138ABC9F0047C5CB /* openFrameworksDebug.a in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXFrameworksBuildPhase section */
+if [ "${CONFIGURATION}" = "Release" ] ; then
+exit 1
+else
+# Code-signing is optional for non-release builds.
+exit 0
+fi
+fi
 
-/* Begin PBXGroup section */
-		09C64306A11F2E72AFEB9F05 /* contrib */ = {
-			isa = PBXGroup;
-			children = (
-				EBE37EAF16EE5942009C9C2F /* anchordict.h */,
-				72BF674908559276FB302F64 /* graphbuilder.h */,
-			);
-			name = contrib;
-			sourceTree = "<group>";
-		};
-		6879FA28605438D9581840F1 /* include */ = {
-			isa = PBXGroup;
-			children = (
-				B9CF58F175E543FC497A4188 /* anchor.h */,
-				C22C91627577D76F80B5168E /* binary.h */,
-				09C64306A11F2E72AFEB9F05 /* contrib */,
-				022AE7D644B6C8D72B79355A /* dll.h */,
-				9CD131B8F9CE8150CF7F9821 /* emitfromevents.h */,
-				0AF34E78B2988C95D037461B /* emitter.h */,
-				6E0236931BAF837F44B4E100 /* emitterdef.h */,
-				345C954A3C71FD324E5C56BC /* emittermanip.h */,
-				2A493A6E51D84FD947783ACA /* emitterstyle.h */,
-				2CD10A8F271CEB6042B01A34 /* eventhandler.h */,
-				34BA8C04C87F544C6F83504D /* exceptions.h */,
-				FFF83150EDFA36160FF173F7 /* mark.h */,
-				C07EC933AEACEE7CB8F44C81 /* node */,
-				E34BA04A49F59080DF5AAE14 /* noncopyable.h */,
-				D44B6732CC6839E1B1226EF9 /* null.h */,
-				6AAFAE2870B07C8C000D3077 /* ostream_wrapper.h */,
-				820CE049132FFD959FDD1A4D /* parser.h */,
-				476BAE14650FC6289736CB02 /* stlemitter.h */,
-				DF569252A160F7B005DD9CC8 /* traits.h */,
-				A5610CC0B38EA6717F4B1A2A /* yaml.h */,
-			);
-			name = include;
-			sourceTree = "<group>";
-		};
-		6948EE371B920CB800B5AC1A /* local_addons */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = local_addons;
-			sourceTree = "<group>";
-		};
-		81C9B734DC769EC5015E461C /* libs */ = {
-			isa = PBXGroup;
-			children = (
-				B85FF84B55EEDC1CFF2BE97A /* yaml-cpp */,
-			);
-			name = libs;
-			sourceTree = "<group>";
-		};
-		ABB8613D2386729A62011A0A /* ofxYAML */ = {
-			isa = PBXGroup;
-			children = (
-				F5F4B8CAA6A5F59D3A188253 /* src */,
-				81C9B734DC769EC5015E461C /* libs */,
-			);
-			name = ofxYAML;
-			sourceTree = "<group>";
-		};
-		B85FF84B55EEDC1CFF2BE97A /* yaml-cpp */ = {
-			isa = PBXGroup;
-			children = (
-				6879FA28605438D9581840F1 /* include */,
-			);
-			name = "yaml-cpp";
-			sourceTree = "<group>";
-		};
-		BB4B014C10F69532006C3DED /* addons */ = {
-			isa = PBXGroup;
-			children = (
-				ABB8613D2386729A62011A0A /* ofxYAML */,
-			);
-			name = addons;
-			sourceTree = "<group>";
-		};
-		C07EC933AEACEE7CB8F44C81 /* node */ = {
-			isa = PBXGroup;
-			children = (
-				49ADFC656055B99967B756E5 /* convert.h */,
-				C10F828A79D00BE7473D2AFD /* detail */,
-				76305C2A2D12594585531AFF /* emit.h */,
-				EEEDB65194C391C1BEF0B2A3 /* impl.h */,
-				8E86EBA888B697A738A8308E /* iterator.h */,
-				66FE272D75167208D021C14B /* node.h */,
-				2D4AB73C5CBAF9BD5236107E /* parse.h */,
-				938C8C1D2B85694B151B969B /* ptr.h */,
-				A57127F8965F186E8D5D5EA3 /* type.h */,
-			);
-			name = node;
-			sourceTree = "<group>";
-		};
-		C10F828A79D00BE7473D2AFD /* detail */ = {
-			isa = PBXGroup;
-			children = (
-				32F32857A1327A81FE3FA3D4 /* bool_type.h */,
-				277A135CF2BDDC6019D6627C /* impl.h */,
-				B3B54050A70BDC628B184AC8 /* iterator.h */,
-				4DE761F5765491A12ABF10E2 /* iterator_fwd.h */,
-				883BAAD477BA5093693B5C2E /* memory.h */,
-				A3D31EFD66B64622B319FEA7 /* node.h */,
-				53AE183D8157265A84CCFF21 /* node_data.h */,
-				269C1AFF8C48E862CE8E489D /* node_iterator.h */,
-				9B9710233856EA58F7BBB4B5 /* node_ref.h */,
-			);
-			name = detail;
-			sourceTree = "<group>";
-		};
-		E4328144138ABC890047C5CB /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				E4328148138ABC890047C5CB /* openFrameworksDebug.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		E4B69B4A0A3A1720003C02F2 = {
-			isa = PBXGroup;
-			children = (
-				E4B6FCAD0C3E899E008CF71C /* openFrameworks-Info.plist */,
-				E4EB6923138AFD0F00A09F29 /* Project.xcconfig */,
-				E4B69E1C0A3A1BDC003C02F2 /* src */,
-				E4EEC9E9138DF44700A80321 /* openFrameworks */,
-				BB4B014C10F69532006C3DED /* addons */,
-				6948EE371B920CB800B5AC1A /* local_addons */,
-				E4B69B5B0A3A1756003C02F2 /* exampleDebug.app */,
-			);
-			sourceTree = "<group>";
-		};
-		E4B69E1C0A3A1BDC003C02F2 /* src */ = {
-			isa = PBXGroup;
-			children = (
-				E4B69E1D0A3A1BDC003C02F2 /* main.cpp */,
-				E4B69E1E0A3A1BDC003C02F2 /* ofApp.cpp */,
-				E4B69E1F0A3A1BDC003C02F2 /* ofApp.h */,
-			);
-			path = src;
-			sourceTree = SOURCE_ROOT;
-		};
-		E4EEC9E9138DF44700A80321 /* openFrameworks */ = {
-			isa = PBXGroup;
-			children = (
-				E4EB691F138AFCF100A09F29 /* CoreOF.xcconfig */,
-				E4328143138ABC890047C5CB /* openFrameworksLib.xcodeproj */,
-			);
-			name = openFrameworks;
-			sourceTree = "<group>";
-		};
-		F5F4B8CAA6A5F59D3A188253 /* src */ = {
-			isa = PBXGroup;
-			children = (
-				5B5CC89AC3CC3FAC5823018C /* ofxYAML.cpp */,
-				CCB12392DFF2A912EA4F8B4F /* ofxYAML.h */,
-			);
-			name = src;
-			sourceTree = "<group>";
-		};
-/* End PBXGroup section */
+ITEMS=""
 
-/* Begin PBXNativeTarget section */
-		E4B69B5A0A3A1756003C02F2 /* example */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = E4B69B5F0A3A1757003C02F2 /* Build configuration list for PBXNativeTarget "example" */;
-			buildPhases = (
-				E4B69B580A3A1756003C02F2 /* Sources */,
-				E4B69B590A3A1756003C02F2 /* Frameworks */,
-				E4B6FFFD0C3F9AB9008CF71C /* ShellScript */,
-				E4C2427710CC5ABF004149E2 /* CopyFiles */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				E4EEB9AC138B136A00A80321 /* PBXTargetDependency */,
-			);
-			name = example;
-			productName = myOFApp;
-			productReference = E4B69B5B0A3A1756003C02F2 /* exampleDebug.app */;
-			productType = "com.apple.product-type.application";
-		};
-/* End PBXNativeTarget section */
+FRAMEWORKS_DIR="${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}"
+echo "$FRAMEWORKS_DIR"
+if [ -d "$FRAMEWORKS_DIR" ] ; then
+FRAMEWORKS=$(find "${FRAMEWORKS_DIR}" -depth -type d -name "*.framework" -or -name "*.dylib" -or -name "*.bundle" | sed -e "s/\(.*framework\)/\1\/Versions\/A\//")
+RESULT=$?
+if [[ $RESULT != 0 ]] ; then
+exit 1
+fi
 
-/* Begin PBXProject section */
-		E4B69B4C0A3A1720003C02F2 /* Project object */ = {
-			isa = PBXProject;
-			attributes = {
-				LastUpgradeCheck = 0600;
-			};
-			buildConfigurationList = E4B69B4D0A3A1720003C02F2 /* Build configuration list for PBXProject "example" */;
-			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
-			hasScannedForEncodings = 0;
-			knownRegions = (
-				English,
-				Japanese,
-				French,
-				German,
-			);
-			mainGroup = E4B69B4A0A3A1720003C02F2;
-			productRefGroup = E4B69B4A0A3A1720003C02F2;
-			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = E4328144138ABC890047C5CB /* Products */;
-					ProjectRef = E4328143138ABC890047C5CB /* openFrameworksLib.xcodeproj */;
-				},
-			);
-			projectRoot = "";
-			targets = (
-				E4B69B5A0A3A1756003C02F2 /* example */,
-			);
-		};
-/* End PBXProject section */
+ITEMS="${FRAMEWORKS}"
+fi
 
-/* Begin PBXReferenceProxy section */
-		E4328148138ABC890047C5CB /* openFrameworksDebug.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = openFrameworksDebug.a;
-			remoteRef = E4328147138ABC890047C5CB /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
+LOGINITEMS_DIR="${TARGET_BUILD_DIR}/${CONTENTS_FOLDER_PATH}/Library/LoginItems/"
+if [ -d "$LOGINITEMS_DIR" ] ; then
+LOGINITEMS=$(find "${LOGINITEMS_DIR}" -depth -type d -name "*.app")
+RESULT=$?
+if [[ $RESULT != 0 ]] ; then
+exit 1
+fi
 
-/* Begin PBXShellScriptBuildPhase section */
-		E4B6FFFD0C3F9AB9008CF71C /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "mkdir -p \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/Resources/\"\n# Copy default icon file into App/Resources\nrsync -aved \"$ICON_FILE\" \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/Resources/\"\n# Copy libfmod and change install directory for fmod to run\nrsync -aved ../../../libs/fmodex/lib/osx/libfmodex.dylib \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/Frameworks/\";\ninstall_name_tool -change @executable_path/libfmodex.dylib @executable_path/../Frameworks/libfmodex.dylib \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/MacOS/$PRODUCT_NAME\";\n# Copy GLUT framework (must remove for AppStore submissions)\nrsync -aved ../../../libs/glut/lib/osx/GLUT.framework \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/Frameworks/\"\n";
-		};
-/* End PBXShellScriptBuildPhase section */
+ITEMS="${ITEMS}"$'\n'"${LOGINITEMS}"
+fi
 
-/* Begin PBXSourcesBuildPhase section */
-		E4B69B580A3A1756003C02F2 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E4B69E200A3A1BDC003C02F2 /* main.cpp in Sources */,
-				E4B69E210A3A1BDC003C02F2 /* ofApp.cpp in Sources */,
-				A55C9D85C40BFDACB5C444AA /* ofxYAML.cpp in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXSourcesBuildPhase section */
+# Prefer the expanded name, if available.
+CODE_SIGN_IDENTITY_FOR_ITEMS="${EXPANDED_CODE_SIGN_IDENTITY_NAME}"
+if [ "${CODE_SIGN_IDENTITY_FOR_ITEMS}" = "" ] ; then
+# Fall back to old behavior.
+CODE_SIGN_IDENTITY_FOR_ITEMS="${CODE_SIGN_IDENTITY}"
+fi
 
-/* Begin PBXTargetDependency section */
-		E4EEB9AC138B136A00A80321 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = openFrameworks;
-			targetProxy = E4EEB9AB138B136A00A80321 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
+echo "Identity:"
+echo "${CODE_SIGN_IDENTITY_FOR_ITEMS}"
 
-/* Begin XCBuildConfiguration section */
-		E4B69B4E0A3A1720003C02F2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E4EB6923138AFD0F00A09F29 /* Project.xcconfig */;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/bin/";
-				COPY_PHASE_STRIP = NO;
-				DEAD_CODE_STRIPPING = YES;
-				GCC_AUTO_VECTORIZATION = YES;
-				GCC_ENABLE_SSE3_EXTENSIONS = YES;
-				GCC_ENABLE_SUPPLEMENTAL_SSE3_INSTRUCTIONS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = YES;
-				GCC_WARN_ABOUT_INVALID_OFFSETOF_MACRO = NO;
-				GCC_WARN_ALLOW_INCOMPLETE_PROTOCOL = NO;
-				GCC_WARN_UNINITIALIZED_AUTOS = NO;
-				GCC_WARN_UNUSED_VALUE = NO;
-				GCC_WARN_UNUSED_VARIABLE = NO;
-				HEADER_SEARCH_PATHS = (
-					"$(OF_CORE_HEADERS)",
-					src,
-					"../../../addons/ofxYAML/libs/yaml-cpp/include",
-					../../../addons/ofxYAML/src,
-				);
-				MACOSX_DEPLOYMENT_TARGET = 10.8;
-				ONLY_ACTIVE_ARCH = YES;
-				OTHER_CPLUSPLUSFLAGS = (
-					"-D__MACOSX_CORE__",
-					"-mtune=native",
-				);
-				OTHER_LDFLAGS = (
-					"$(OF_CORE_FRAMEWORKS)",
-					"$(OF_CORE_LIBS)",
-					"../../../addons/ofxYAML/libs/yaml-cpp/lib/osx/x64/libyaml-cpp.a",
-					"../../../addons/ofxYAML/libs/yaml-cpp/lib/osx/x86/libyaml-cpp.a",
-				);
-				SDKROOT = macosx;
-			};
-			name = Debug;
-		};
-		E4B69B4F0A3A1720003C02F2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E4EB6923138AFD0F00A09F29 /* Project.xcconfig */;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/bin/";
-				COPY_PHASE_STRIP = YES;
-				DEAD_CODE_STRIPPING = YES;
-				GCC_AUTO_VECTORIZATION = YES;
-				GCC_ENABLE_SSE3_EXTENSIONS = YES;
-				GCC_ENABLE_SUPPLEMENTAL_SSE3_INSTRUCTIONS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 3;
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GCC_UNROLL_LOOPS = YES;
-				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = YES;
-				GCC_WARN_ABOUT_INVALID_OFFSETOF_MACRO = NO;
-				GCC_WARN_ALLOW_INCOMPLETE_PROTOCOL = NO;
-				GCC_WARN_UNINITIALIZED_AUTOS = NO;
-				GCC_WARN_UNUSED_VALUE = NO;
-				GCC_WARN_UNUSED_VARIABLE = NO;
-				HEADER_SEARCH_PATHS = (
-					"$(OF_CORE_HEADERS)",
-					src,
-					"../../../addons/ofxYAML/libs/yaml-cpp/include",
-					../../../addons/ofxYAML/src,
-				);
-				MACOSX_DEPLOYMENT_TARGET = 10.8;
-				OTHER_CPLUSPLUSFLAGS = (
-					"-D__MACOSX_CORE__",
-					"-mtune=native",
-				);
-				OTHER_LDFLAGS = (
-					"$(OF_CORE_FRAMEWORKS)",
-					"$(OF_CORE_LIBS)",
-					"../../../addons/ofxYAML/libs/yaml-cpp/lib/osx/x64/libyaml-cpp.a",
-					"../../../addons/ofxYAML/libs/yaml-cpp/lib/osx/x86/libyaml-cpp.a",
-				);
-				SDKROOT = macosx;
-			};
-			name = Release;
-		};
-		E4B69B600A3A1757003C02F2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E4EB6923138AFD0F00A09F29 /* Project.xcconfig */;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				COPY_PHASE_STRIP = NO;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
-				);
-				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/../../../libs/glut/lib/osx\"";
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_MODEL_TUNING = NONE;
-				HEADER_SEARCH_PATHS = (
-					"$(OF_CORE_HEADERS)",
-					src,
-					"../../../addons/ofxYAML/libs/yaml-cpp/include",
-					../../../addons/ofxYAML/src,
-				);
-				ICON = "$(ICON_NAME_DEBUG)";
-				ICON_FILE = "$(ICON_FILE_PATH)$(ICON)";
-				INFOPLIST_FILE = "openFrameworks-Info.plist";
-				INSTALL_PATH = /Applications;
-				LIBRARY_SEARCH_PATHS = "$(inherited)";
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				OTHER_LDFLAGS = (
-					"$(OF_CORE_FRAMEWORKS)",
-					"$(OF_CORE_LIBS)",
-					"../../../addons/ofxYAML/libs/yaml-cpp/lib/osx/x64/libyaml-cpp.a",
-					"../../../addons/ofxYAML/libs/yaml-cpp/lib/osx/x86/libyaml-cpp.a",
-				);
-				PRODUCT_NAME = "$(TARGET_NAME)Debug";
-				WRAPPER_EXTENSION = app;
-			};
-			name = Debug;
-		};
-		E4B69B610A3A1757003C02F2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E4EB6923138AFD0F00A09F29 /* Project.xcconfig */;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				COPY_PHASE_STRIP = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
-				);
-				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/../../../libs/glut/lib/osx\"";
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_MODEL_TUNING = NONE;
-				HEADER_SEARCH_PATHS = (
-					"$(OF_CORE_HEADERS)",
-					src,
-					"../../../addons/ofxYAML/libs/yaml-cpp/include",
-					../../../addons/ofxYAML/src,
-				);
-				ICON = "$(ICON_NAME_RELEASE)";
-				ICON_FILE = "$(ICON_FILE_PATH)$(ICON)";
-				INFOPLIST_FILE = "openFrameworks-Info.plist";
-				INSTALL_PATH = /Applications;
-				LIBRARY_SEARCH_PATHS = "$(inherited)";
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				OTHER_LDFLAGS = (
-					"$(OF_CORE_FRAMEWORKS)",
-					"$(OF_CORE_LIBS)",
-					"../../../addons/ofxYAML/libs/yaml-cpp/lib/osx/x64/libyaml-cpp.a",
-					"../../../addons/ofxYAML/libs/yaml-cpp/lib/osx/x86/libyaml-cpp.a",
-				);
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = app;
-				baseConfigurationReference = E4EB6923138AFD0F00A09F29;
-			};
-			name = Release;
-		};
-/* End XCBuildConfiguration section */
+echo "Entitlements:"
+echo "${CODE_SIGN_ENTITLEMENTS}"
 
-/* Begin XCConfigurationList section */
-		E4B69B4D0A3A1720003C02F2 /* Build configuration list for PBXProject "example" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E4B69B4E0A3A1720003C02F2 /* Debug */,
-				E4B69B4F0A3A1720003C02F2 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E4B69B5F0A3A1757003C02F2 /* Build configuration list for PBXNativeTarget "example" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E4B69B600A3A1757003C02F2 /* Debug */,
-				E4B69B610A3A1757003C02F2 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-/* End XCConfigurationList section */
-	};
-	rootObject = E4B69B4C0A3A1720003C02F2 /* Project object */;
-}
+echo "Found:"
+echo "${ITEMS}"
+
+# Change the Internal Field Separator (IFS) so that spaces in paths will not cause problems below.
+SAVED_IFS=$IFS
+IFS=$(echo -en "\n\b")
+
+# Loop through all items.
+for ITEM in $ITEMS;
+do
+echo "Signing '${ITEM}'"
+codesign --force --verbose --sign "${CODE_SIGN_IDENTITY_FOR_ITEMS}" --entitlements "${CODE_SIGN_ENTITLEMENTS}" "${ITEM}"
+RESULT=$?
+if [[ $RESULT != 0 ]] ; then
+echo "Failed to sign '${ITEM}'."
+IFS=$SAVED_IFS
+exit 1
+fi
+done
+
+# Restore $IFS.
+IFS=$SAVED_IFS
+
+fi
+</string>
+			</dict>
+			<key>99FA3DBB1C7456C400CFA0EE</key>
+			<dict>
+				<key>baseConfigurationReference</key>
+				<string>E4EB6923138AFD0F00A09F29</string>
+				<key>buildSettings</key>
+				<dict>
+					<key>OTHER_LDFLAGS</key>
+					<array>
+						<string>$(OF_CORE_FRAMEWORKS) $(OF_CORE_LIBS)</string>
+						<string>../../../addons/ofxYAML/libs/yaml-cpp/lib/osx/x64/libyaml-cpp.a</string>
+						<string>../../../addons/ofxYAML/libs/yaml-cpp/lib/osx/x86/libyaml-cpp.a</string>
+					</array>
+					<key>HEADER_SEARCH_PATHS</key>
+					<array>
+						<string>$(OF_CORE_HEADERS)</string>
+						<string>src</string>
+						<string>../../../addons/ofxYAML/libs/yaml-cpp/include</string>
+						<string>../../../addons/ofxYAML/src</string>
+					</array>
+					<key>CONFIGURATION_BUILD_DIR</key>
+					<string>$(SRCROOT)/bin/</string>
+					<key>COPY_PHASE_STRIP</key>
+					<string>YES</string>
+					<key>DEAD_CODE_STRIPPING</key>
+					<string>YES</string>
+					<key>GCC_AUTO_VECTORIZATION</key>
+					<string>YES</string>
+					<key>GCC_ENABLE_SSE3_EXTENSIONS</key>
+					<string>YES</string>
+					<key>GCC_ENABLE_SUPPLEMENTAL_SSE3_INSTRUCTIONS</key>
+					<string>YES</string>
+					<key>GCC_INLINES_ARE_PRIVATE_EXTERN</key>
+					<string>NO</string>
+					<key>GCC_OPTIMIZATION_LEVEL</key>
+					<string>3</string>
+					<key>GCC_PREPROCESSOR_DEFINITIONS[arch=*]</key>
+					<string>DISTRIBUTION=1</string>
+					<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
+					<string>NO</string>
+					<key>GCC_UNROLL_LOOPS</key>
+					<string>YES</string>
+					<key>GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS</key>
+					<string>YES</string>
+					<key>GCC_WARN_ABOUT_INVALID_OFFSETOF_MACRO</key>
+					<string>NO</string>
+					<key>GCC_WARN_ALLOW_INCOMPLETE_PROTOCOL</key>
+					<string>NO</string>
+					<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
+					<string>NO</string>
+					<key>GCC_WARN_UNUSED_VALUE</key>
+					<string>NO</string>
+					<key>GCC_WARN_UNUSED_VARIABLE</key>
+					<string>NO</string>
+					<key>MACOSX_DEPLOYMENT_TARGET</key>
+					<string>10.9</string>
+					<key>OTHER_CPLUSPLUSFLAGS</key>
+					<array>
+						<string>-D__MACOSX_CORE__</string>
+						<string>-mtune=native</string>
+					</array>
+					<key>SDKROOT</key>
+					<string>macosx</string>
+				</dict>
+				<key>isa</key>
+				<string>XCBuildConfiguration</string>
+				<key>name</key>
+				<string>AppStore</string>
+			</dict>
+			<key>99FA3DBC1C7456C400CFA0EE</key>
+			<dict>
+				<key>baseConfigurationReference</key>
+				<string>E4EB6923138AFD0F00A09F29</string>
+				<key>buildSettings</key>
+				<dict>
+					<key>OTHER_LDFLAGS</key>
+					<array>
+						<string>$(OF_CORE_FRAMEWORKS) $(OF_CORE_LIBS)</string>
+						<string>../../../addons/ofxYAML/libs/yaml-cpp/lib/osx/x64/libyaml-cpp.a</string>
+						<string>../../../addons/ofxYAML/libs/yaml-cpp/lib/osx/x86/libyaml-cpp.a</string>
+					</array>
+					<key>HEADER_SEARCH_PATHS</key>
+					<array>
+						<string>$(OF_CORE_HEADERS)</string>
+						<string>src</string>
+						<string>../../../addons/ofxYAML/libs/yaml-cpp/include</string>
+						<string>../../../addons/ofxYAML/src</string>
+					</array>
+					<key>COMBINE_HIDPI_IMAGES</key>
+					<string>YES</string>
+					<key>COPY_PHASE_STRIP</key>
+					<string>YES</string>
+					<key>FRAMEWORK_SEARCH_PATHS</key>
+					<array>
+						<string>$(inherited)</string>
+					</array>
+					<key>GCC_GENERATE_DEBUGGING_SYMBOLS</key>
+					<string>YES</string>
+					<key>GCC_MODEL_TUNING</key>
+					<string>NONE</string>
+					<key>GCC_PREPROCESSOR_DEFINITIONS[arch=*]</key>
+					<string>APPSTORE=1</string>
+					<key>ICON</key>
+					<string>$(ICON_NAME_RELEASE)</string>
+					<key>ICON_FILE</key>
+					<string>$(ICON_FILE_PATH)$(ICON)</string>
+					<key>INFOPLIST_FILE</key>
+					<string>openFrameworks-Info.plist</string>
+					<key>INSTALL_PATH</key>
+					<string>/Applications</string>
+					<key>LIBRARY_SEARCH_PATHS</key>
+					<string>$(inherited)</string>
+					<key>PRODUCT_NAME</key>
+					<string>$(TARGET_NAME)</string>
+					<key>WRAPPER_EXTENSION</key>
+					<string>app</string>
+					<key>baseConfigurationReference</key>
+					<string>E4EB6923138AFD0F00A09F29</string>
+				</dict>
+				<key>isa</key>
+				<string>XCBuildConfiguration</string>
+				<key>name</key>
+				<string>AppStore</string>
+			</dict>
+			<key>BB4B014C10F69532006C3DED</key>
+			<dict>
+				<key>children</key>
+				<array>
+					<string>ABB8613D2386729A62011A0A</string>
+				</array>
+				<key>isa</key>
+				<string>PBXGroup</string>
+				<key>name</key>
+				<string>addons</string>
+				<key>sourceTree</key>
+				<string>&lt;group&gt;</string>
+			</dict>
+			<key>E4328143138ABC890047C5CB</key>
+			<dict>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>lastKnownFileType</key>
+				<string>wrapper.pb-project</string>
+				<key>name</key>
+				<string>openFrameworksLib.xcodeproj</string>
+				<key>path</key>
+				<string>../../../libs/openFrameworksCompiled/project/osx/openFrameworksLib.xcodeproj</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>E4328144138ABC890047C5CB</key>
+			<dict>
+				<key>children</key>
+				<array>
+					<string>E4328148138ABC890047C5CB</string>
+				</array>
+				<key>isa</key>
+				<string>PBXGroup</string>
+				<key>name</key>
+				<string>Products</string>
+				<key>sourceTree</key>
+				<string>&lt;group&gt;</string>
+			</dict>
+			<key>E4328147138ABC890047C5CB</key>
+			<dict>
+				<key>containerPortal</key>
+				<string>E4328143138ABC890047C5CB</string>
+				<key>isa</key>
+				<string>PBXContainerItemProxy</string>
+				<key>proxyType</key>
+				<string>2</string>
+				<key>remoteGlobalIDString</key>
+				<string>E4B27C1510CBEB8E00536013</string>
+				<key>remoteInfo</key>
+				<string>openFrameworks</string>
+			</dict>
+			<key>E4328148138ABC890047C5CB</key>
+			<dict>
+				<key>fileType</key>
+				<string>archive.ar</string>
+				<key>isa</key>
+				<string>PBXReferenceProxy</string>
+				<key>path</key>
+				<string>openFrameworksDebug.a</string>
+				<key>remoteRef</key>
+				<string>E4328147138ABC890047C5CB</string>
+				<key>sourceTree</key>
+				<string>BUILT_PRODUCTS_DIR</string>
+			</dict>
+			<key>E4328149138ABC9F0047C5CB</key>
+			<dict>
+				<key>fileRef</key>
+				<string>E4328148138ABC890047C5CB</string>
+				<key>isa</key>
+				<string>PBXBuildFile</string>
+			</dict>
+			<key>E4B69B4A0A3A1720003C02F2</key>
+			<dict>
+				<key>children</key>
+				<array>
+					<string>E4B6FCAD0C3E899E008CF71C</string>
+					<string>E4EB6923138AFD0F00A09F29</string>
+					<string>E4B69E1C0A3A1BDC003C02F2</string>
+					<string>E4EEC9E9138DF44700A80321</string>
+					<string>BB4B014C10F69532006C3DED</string>
+					<string>6948EE371B920CB800B5AC1A</string>
+					<string>E4B69B5B0A3A1756003C02F2</string>
+				</array>
+				<key>isa</key>
+				<string>PBXGroup</string>
+				<key>sourceTree</key>
+				<string>&lt;group&gt;</string>
+			</dict>
+			<key>E4B69B4C0A3A1720003C02F2</key>
+			<dict>
+				<key>attributes</key>
+				<dict>
+					<key>LastUpgradeCheck</key>
+					<string>0600</string>
+				</dict>
+				<key>buildConfigurationList</key>
+				<string>E4B69B4D0A3A1720003C02F2</string>
+				<key>compatibilityVersion</key>
+				<string>Xcode 3.2</string>
+				<key>developmentRegion</key>
+				<string>English</string>
+				<key>hasScannedForEncodings</key>
+				<string>0</string>
+				<key>isa</key>
+				<string>PBXProject</string>
+				<key>knownRegions</key>
+				<array>
+					<string>English</string>
+					<string>Japanese</string>
+					<string>French</string>
+					<string>German</string>
+				</array>
+				<key>mainGroup</key>
+				<string>E4B69B4A0A3A1720003C02F2</string>
+				<key>productRefGroup</key>
+				<string>E4B69B4A0A3A1720003C02F2</string>
+				<key>projectDirPath</key>
+				<string />
+				<key>projectReferences</key>
+				<array>
+					<dict>
+						<key>ProductGroup</key>
+						<string>E4328144138ABC890047C5CB</string>
+						<key>ProjectRef</key>
+						<string>E4328143138ABC890047C5CB</string>
+					</dict>
+				</array>
+				<key>projectRoot</key>
+				<string />
+				<key>targets</key>
+				<array>
+					<string>E4B69B5A0A3A1756003C02F2</string>
+				</array>
+			</dict>
+			<key>E4B69B4D0A3A1720003C02F2</key>
+			<dict>
+				<key>buildConfigurations</key>
+				<array>
+					<string>E4B69B4E0A3A1720003C02F2</string>
+					<string>E4B69B4F0A3A1720003C02F2</string>
+					<string>99FA3DBB1C7456C400CFA0EE</string>
+				</array>
+				<key>defaultConfigurationIsVisible</key>
+				<string>0</string>
+				<key>defaultConfigurationName</key>
+				<string>Release</string>
+				<key>isa</key>
+				<string>XCConfigurationList</string>
+			</dict>
+			<key>E4B69B4E0A3A1720003C02F2</key>
+			<dict>
+				<key>baseConfigurationReference</key>
+				<string>E4EB6923138AFD0F00A09F29</string>
+				<key>buildSettings</key>
+				<dict>
+					<key>OTHER_LDFLAGS</key>
+					<array>
+						<string>$(OF_CORE_FRAMEWORKS) $(OF_CORE_LIBS)</string>
+						<string>../../../addons/ofxYAML/libs/yaml-cpp/lib/osx/x64/libyaml-cpp.a</string>
+						<string>../../../addons/ofxYAML/libs/yaml-cpp/lib/osx/x86/libyaml-cpp.a</string>
+					</array>
+					<key>HEADER_SEARCH_PATHS</key>
+					<array>
+						<string>$(OF_CORE_HEADERS)</string>
+						<string>src</string>
+						<string>../../../addons/ofxYAML/libs/yaml-cpp/include</string>
+						<string>../../../addons/ofxYAML/src</string>
+					</array>
+					<key>CONFIGURATION_BUILD_DIR</key>
+					<string>$(SRCROOT)/bin/</string>
+					<key>COPY_PHASE_STRIP</key>
+					<string>NO</string>
+					<key>DEAD_CODE_STRIPPING</key>
+					<string>YES</string>
+					<key>GCC_AUTO_VECTORIZATION</key>
+					<string>YES</string>
+					<key>GCC_ENABLE_SSE3_EXTENSIONS</key>
+					<string>YES</string>
+					<key>GCC_ENABLE_SUPPLEMENTAL_SSE3_INSTRUCTIONS</key>
+					<string>YES</string>
+					<key>GCC_INLINES_ARE_PRIVATE_EXTERN</key>
+					<string>NO</string>
+					<key>GCC_OPTIMIZATION_LEVEL</key>
+					<string>0</string>
+					<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
+					<string>NO</string>
+					<key>GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS</key>
+					<string>YES</string>
+					<key>GCC_WARN_ABOUT_INVALID_OFFSETOF_MACRO</key>
+					<string>NO</string>
+					<key>GCC_WARN_ALLOW_INCOMPLETE_PROTOCOL</key>
+					<string>NO</string>
+					<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
+					<string>NO</string>
+					<key>GCC_WARN_UNUSED_VALUE</key>
+					<string>NO</string>
+					<key>GCC_WARN_UNUSED_VARIABLE</key>
+					<string>NO</string>
+					<key>MACOSX_DEPLOYMENT_TARGET</key>
+					<string>10.9</string>
+					<key>ONLY_ACTIVE_ARCH</key>
+					<string>YES</string>
+					<key>OTHER_CPLUSPLUSFLAGS</key>
+					<array>
+						<string>-D__MACOSX_CORE__</string>
+						<string>-mtune=native</string>
+					</array>
+					<key>SDKROOT</key>
+					<string>macosx</string>
+				</dict>
+				<key>isa</key>
+				<string>XCBuildConfiguration</string>
+				<key>name</key>
+				<string>Debug</string>
+			</dict>
+			<key>E4B69B4F0A3A1720003C02F2</key>
+			<dict>
+				<key>baseConfigurationReference</key>
+				<string>E4EB6923138AFD0F00A09F29</string>
+				<key>buildSettings</key>
+				<dict>
+					<key>OTHER_LDFLAGS</key>
+					<array>
+						<string>$(OF_CORE_FRAMEWORKS) $(OF_CORE_LIBS)</string>
+						<string>../../../addons/ofxYAML/libs/yaml-cpp/lib/osx/x64/libyaml-cpp.a</string>
+						<string>../../../addons/ofxYAML/libs/yaml-cpp/lib/osx/x86/libyaml-cpp.a</string>
+					</array>
+					<key>HEADER_SEARCH_PATHS</key>
+					<array>
+						<string>$(OF_CORE_HEADERS)</string>
+						<string>src</string>
+						<string>../../../addons/ofxYAML/libs/yaml-cpp/include</string>
+						<string>../../../addons/ofxYAML/src</string>
+					</array>
+					<key>CONFIGURATION_BUILD_DIR</key>
+					<string>$(SRCROOT)/bin/</string>
+					<key>COPY_PHASE_STRIP</key>
+					<string>YES</string>
+					<key>DEAD_CODE_STRIPPING</key>
+					<string>YES</string>
+					<key>GCC_AUTO_VECTORIZATION</key>
+					<string>YES</string>
+					<key>GCC_ENABLE_SSE3_EXTENSIONS</key>
+					<string>YES</string>
+					<key>GCC_ENABLE_SUPPLEMENTAL_SSE3_INSTRUCTIONS</key>
+					<string>YES</string>
+					<key>GCC_INLINES_ARE_PRIVATE_EXTERN</key>
+					<string>NO</string>
+					<key>GCC_OPTIMIZATION_LEVEL</key>
+					<string>3</string>
+					<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
+					<string>NO</string>
+					<key>GCC_UNROLL_LOOPS</key>
+					<string>YES</string>
+					<key>GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS</key>
+					<string>YES</string>
+					<key>GCC_WARN_ABOUT_INVALID_OFFSETOF_MACRO</key>
+					<string>NO</string>
+					<key>GCC_WARN_ALLOW_INCOMPLETE_PROTOCOL</key>
+					<string>NO</string>
+					<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
+					<string>NO</string>
+					<key>GCC_WARN_UNUSED_VALUE</key>
+					<string>NO</string>
+					<key>GCC_WARN_UNUSED_VARIABLE</key>
+					<string>NO</string>
+					<key>MACOSX_DEPLOYMENT_TARGET</key>
+					<string>10.9</string>
+					<key>OTHER_CPLUSPLUSFLAGS</key>
+					<array>
+						<string>-D__MACOSX_CORE__</string>
+						<string>-mtune=native</string>
+					</array>
+					<key>SDKROOT</key>
+					<string>macosx</string>
+				</dict>
+				<key>isa</key>
+				<string>XCBuildConfiguration</string>
+				<key>name</key>
+				<string>Release</string>
+			</dict>
+			<key>E4B69B580A3A1756003C02F2</key>
+			<dict>
+				<key>buildActionMask</key>
+				<string>2147483647</string>
+				<key>files</key>
+				<array>
+					<string>E4B69E200A3A1BDC003C02F2</string>
+					<string>E4B69E210A3A1BDC003C02F2</string>
+					<string>A55C9D85C40BFDACB5C444AA</string>
+				</array>
+				<key>isa</key>
+				<string>PBXSourcesBuildPhase</string>
+				<key>runOnlyForDeploymentPostprocessing</key>
+				<string>0</string>
+			</dict>
+			<key>E4B69B590A3A1756003C02F2</key>
+			<dict>
+				<key>buildActionMask</key>
+				<string>2147483647</string>
+				<key>files</key>
+				<array>
+					<string>E4328149138ABC9F0047C5CB</string>
+				</array>
+				<key>isa</key>
+				<string>PBXFrameworksBuildPhase</string>
+				<key>runOnlyForDeploymentPostprocessing</key>
+				<string>0</string>
+			</dict>
+			<key>E4B69B5A0A3A1756003C02F2</key>
+			<dict>
+				<key>buildConfigurationList</key>
+				<string>E4B69B5F0A3A1757003C02F2</string>
+				<key>buildPhases</key>
+				<array>
+					<string>E4B69B580A3A1756003C02F2</string>
+					<string>E4B69B590A3A1756003C02F2</string>
+					<string>E4B6FFFD0C3F9AB9008CF71C</string>
+					<string>E4C2427710CC5ABF004149E2</string>
+					<string>8466F1851C04CA0E00918B1C</string>
+				</array>
+				<key>buildRules</key>
+				<array />
+				<key>dependencies</key>
+				<array>
+					<string>E4EEB9AC138B136A00A80321</string>
+				</array>
+				<key>isa</key>
+				<string>PBXNativeTarget</string>
+				<key>name</key>
+				<string>example</string>
+				<key>productName</key>
+				<string>myOFApp</string>
+				<key>productReference</key>
+				<string>E4B69B5B0A3A1756003C02F2</string>
+				<key>productType</key>
+				<string>com.apple.product-type.application</string>
+			</dict>
+			<key>E4B69B5B0A3A1756003C02F2</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>wrapper.application</string>
+				<key>includeInIndex</key>
+				<string>0</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>path</key>
+				<string>exampleDebug.app</string>
+				<key>sourceTree</key>
+				<string>BUILT_PRODUCTS_DIR</string>
+			</dict>
+			<key>E4B69B5F0A3A1757003C02F2</key>
+			<dict>
+				<key>buildConfigurations</key>
+				<array>
+					<string>E4B69B600A3A1757003C02F2</string>
+					<string>E4B69B610A3A1757003C02F2</string>
+					<string>99FA3DBC1C7456C400CFA0EE</string>
+				</array>
+				<key>defaultConfigurationIsVisible</key>
+				<string>0</string>
+				<key>defaultConfigurationName</key>
+				<string>Release</string>
+				<key>isa</key>
+				<string>XCConfigurationList</string>
+			</dict>
+			<key>E4B69B600A3A1757003C02F2</key>
+			<dict>
+				<key>baseConfigurationReference</key>
+				<string>E4EB6923138AFD0F00A09F29</string>
+				<key>buildSettings</key>
+				<dict>
+					<key>OTHER_LDFLAGS</key>
+					<array>
+						<string>$(OF_CORE_FRAMEWORKS) $(OF_CORE_LIBS)</string>
+						<string>../../../addons/ofxYAML/libs/yaml-cpp/lib/osx/x64/libyaml-cpp.a</string>
+						<string>../../../addons/ofxYAML/libs/yaml-cpp/lib/osx/x86/libyaml-cpp.a</string>
+					</array>
+					<key>HEADER_SEARCH_PATHS</key>
+					<array>
+						<string>$(OF_CORE_HEADERS)</string>
+						<string>src</string>
+						<string>../../../addons/ofxYAML/libs/yaml-cpp/include</string>
+						<string>../../../addons/ofxYAML/src</string>
+					</array>
+					<key>COMBINE_HIDPI_IMAGES</key>
+					<string>YES</string>
+					<key>COPY_PHASE_STRIP</key>
+					<string>NO</string>
+					<key>FRAMEWORK_SEARCH_PATHS</key>
+					<array>
+						<string>$(inherited)</string>
+					</array>
+					<key>GCC_DYNAMIC_NO_PIC</key>
+					<string>NO</string>
+					<key>GCC_GENERATE_DEBUGGING_SYMBOLS</key>
+					<string>YES</string>
+					<key>GCC_MODEL_TUNING</key>
+					<string>NONE</string>
+					<key>ICON</key>
+					<string>$(ICON_NAME_DEBUG)</string>
+					<key>ICON_FILE</key>
+					<string>$(ICON_FILE_PATH)$(ICON)</string>
+					<key>INFOPLIST_FILE</key>
+					<string>openFrameworks-Info.plist</string>
+					<key>INSTALL_PATH</key>
+					<string>/Applications</string>
+					<key>LIBRARY_SEARCH_PATHS</key>
+					<string>$(inherited)</string>
+					<key>PRODUCT_NAME</key>
+					<string>$(TARGET_NAME)Debug</string>
+					<key>WRAPPER_EXTENSION</key>
+					<string>app</string>
+				</dict>
+				<key>isa</key>
+				<string>XCBuildConfiguration</string>
+				<key>name</key>
+				<string>Debug</string>
+			</dict>
+			<key>E4B69B610A3A1757003C02F2</key>
+			<dict>
+				<key>baseConfigurationReference</key>
+				<string>E4EB6923138AFD0F00A09F29</string>
+				<key>buildSettings</key>
+				<dict>
+					<key>OTHER_LDFLAGS</key>
+					<array>
+						<string>$(OF_CORE_FRAMEWORKS) $(OF_CORE_LIBS)</string>
+						<string>../../../addons/ofxYAML/libs/yaml-cpp/lib/osx/x64/libyaml-cpp.a</string>
+						<string>../../../addons/ofxYAML/libs/yaml-cpp/lib/osx/x86/libyaml-cpp.a</string>
+					</array>
+					<key>HEADER_SEARCH_PATHS</key>
+					<array>
+						<string>$(OF_CORE_HEADERS)</string>
+						<string>src</string>
+						<string>../../../addons/ofxYAML/libs/yaml-cpp/include</string>
+						<string>../../../addons/ofxYAML/src</string>
+					</array>
+					<key>COMBINE_HIDPI_IMAGES</key>
+					<string>YES</string>
+					<key>COPY_PHASE_STRIP</key>
+					<string>YES</string>
+					<key>FRAMEWORK_SEARCH_PATHS</key>
+					<array>
+						<string>$(inherited)</string>
+					</array>
+					<key>GCC_GENERATE_DEBUGGING_SYMBOLS</key>
+					<string>YES</string>
+					<key>GCC_MODEL_TUNING</key>
+					<string>NONE</string>
+					<key>ICON</key>
+					<string>$(ICON_NAME_RELEASE)</string>
+					<key>ICON_FILE</key>
+					<string>$(ICON_FILE_PATH)$(ICON)</string>
+					<key>INFOPLIST_FILE</key>
+					<string>openFrameworks-Info.plist</string>
+					<key>INSTALL_PATH</key>
+					<string>/Applications</string>
+					<key>LIBRARY_SEARCH_PATHS</key>
+					<string>$(inherited)</string>
+					<key>PRODUCT_NAME</key>
+					<string>$(TARGET_NAME)</string>
+					<key>WRAPPER_EXTENSION</key>
+					<string>app</string>
+					<key>baseConfigurationReference</key>
+					<string>E4EB6923138AFD0F00A09F29</string>
+				</dict>
+				<key>isa</key>
+				<string>XCBuildConfiguration</string>
+				<key>name</key>
+				<string>Release</string>
+			</dict>
+			<key>E4B69E1C0A3A1BDC003C02F2</key>
+			<dict>
+				<key>children</key>
+				<array>
+					<string>E4B69E1D0A3A1BDC003C02F2</string>
+					<string>E4B69E1E0A3A1BDC003C02F2</string>
+					<string>E4B69E1F0A3A1BDC003C02F2</string>
+				</array>
+				<key>isa</key>
+				<string>PBXGroup</string>
+				<key>path</key>
+				<string>src</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>E4B69E1D0A3A1BDC003C02F2</key>
+			<dict>
+				<key>fileEncoding</key>
+				<string>4</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>lastKnownFileType</key>
+				<string>sourcecode.cpp.cpp</string>
+				<key>name</key>
+				<string>main.cpp</string>
+				<key>path</key>
+				<string>src/main.cpp</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>E4B69E1E0A3A1BDC003C02F2</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.cpp.cpp</string>
+				<key>fileEncoding</key>
+				<string>4</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>ofApp.cpp</string>
+				<key>path</key>
+				<string>src/ofApp.cpp</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>E4B69E1F0A3A1BDC003C02F2</key>
+			<dict>
+				<key>fileEncoding</key>
+				<string>4</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>lastKnownFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>name</key>
+				<string>ofApp.h</string>
+				<key>path</key>
+				<string>src/ofApp.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>E4B69E200A3A1BDC003C02F2</key>
+			<dict>
+				<key>fileRef</key>
+				<string>E4B69E1D0A3A1BDC003C02F2</string>
+				<key>isa</key>
+				<string>PBXBuildFile</string>
+			</dict>
+			<key>E4B69E210A3A1BDC003C02F2</key>
+			<dict>
+				<key>fileRef</key>
+				<string>E4B69E1E0A3A1BDC003C02F2</string>
+				<key>isa</key>
+				<string>PBXBuildFile</string>
+			</dict>
+			<key>E4B6FCAD0C3E899E008CF71C</key>
+			<dict>
+				<key>fileEncoding</key>
+				<string>4</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>lastKnownFileType</key>
+				<string>text.plist.xml</string>
+				<key>path</key>
+				<string>openFrameworks-Info.plist</string>
+				<key>sourceTree</key>
+				<string>&lt;group&gt;</string>
+			</dict>
+			<key>E4B6FFFD0C3F9AB9008CF71C</key>
+			<dict>
+				<key>buildActionMask</key>
+				<string>2147483647</string>
+				<key>files</key>
+				<array />
+				<key>inputPaths</key>
+				<array />
+				<key>isa</key>
+				<string>PBXShellScriptBuildPhase</string>
+				<key>outputPaths</key>
+				<array />
+				<key>runOnlyForDeploymentPostprocessing</key>
+				<string>0</string>
+				<key>shellPath</key>
+				<string>/bin/sh</string>
+				<key>shellScript</key>
+				<string>mkdir -p "$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/Resources/"
+# Copy default icon file into App/Resources
+rsync -aved "$ICON_FILE" "$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/Resources/"
+# Copy libfmod and change install directory for fmod to run
+rsync -aved "$OF_PATH/libs/fmodex/lib/osx/libfmodex.dylib" "$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/Frameworks/";
+install_name_tool -change @executable_path/libfmodex.dylib @executable_path/../Frameworks/libfmodex.dylib "$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/MacOS/$PRODUCT_NAME";
+
+echo "$GCC_PREPROCESSOR_DEFINITIONS";
+</string>
+			</dict>
+			<key>E4C2427710CC5ABF004149E2</key>
+			<dict>
+				<key>buildActionMask</key>
+				<string>2147483647</string>
+				<key>dstPath</key>
+				<string />
+				<key>dstSubfolderSpec</key>
+				<string>10</string>
+				<key>files</key>
+				<array />
+				<key>isa</key>
+				<string>PBXCopyFilesBuildPhase</string>
+				<key>runOnlyForDeploymentPostprocessing</key>
+				<string>0</string>
+			</dict>
+			<key>E4EB691F138AFCF100A09F29</key>
+			<dict>
+				<key>fileEncoding</key>
+				<string>4</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>lastKnownFileType</key>
+				<string>text.xcconfig</string>
+				<key>name</key>
+				<string>CoreOF.xcconfig</string>
+				<key>path</key>
+				<string>../../../libs/openFrameworksCompiled/project/osx/CoreOF.xcconfig</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>E4EB6923138AFD0F00A09F29</key>
+			<dict>
+				<key>fileEncoding</key>
+				<string>4</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>lastKnownFileType</key>
+				<string>text.xcconfig</string>
+				<key>path</key>
+				<string>Project.xcconfig</string>
+				<key>sourceTree</key>
+				<string>&lt;group&gt;</string>
+			</dict>
+			<key>E4EEB9AB138B136A00A80321</key>
+			<dict>
+				<key>containerPortal</key>
+				<string>E4328143138ABC890047C5CB</string>
+				<key>isa</key>
+				<string>PBXContainerItemProxy</string>
+				<key>proxyType</key>
+				<string>1</string>
+				<key>remoteGlobalIDString</key>
+				<string>E4B27C1410CBEB8E00536013</string>
+				<key>remoteInfo</key>
+				<string>openFrameworks</string>
+			</dict>
+			<key>E4EEB9AC138B136A00A80321</key>
+			<dict>
+				<key>isa</key>
+				<string>PBXTargetDependency</string>
+				<key>name</key>
+				<string>openFrameworks</string>
+				<key>targetProxy</key>
+				<string>E4EEB9AB138B136A00A80321</string>
+			</dict>
+			<key>E4EEC9E9138DF44700A80321</key>
+			<dict>
+				<key>children</key>
+				<array>
+					<string>E4EB691F138AFCF100A09F29</string>
+					<string>E4328143138ABC890047C5CB</string>
+				</array>
+				<key>isa</key>
+				<string>PBXGroup</string>
+				<key>name</key>
+				<string>openFrameworks</string>
+				<key>sourceTree</key>
+				<string>&lt;group&gt;</string>
+			</dict>
+		</dict>
+		<key>rootObject</key>
+		<string>E4B69B4C0A3A1720003C02F2</string>
+	</dict>
+</plist>

@@ -9,7 +9,7 @@
 #ifndef ofxYAML_hpp
 #define ofxYAML_hpp
 
-#include "ofUtils.h"
+#include "ofMain.h"
 #include "yaml.h"
 
 using namespace YAML;

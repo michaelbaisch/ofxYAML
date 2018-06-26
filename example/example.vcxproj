@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
 	<ItemGroup Label="ProjectConfigurations">
 		<ProjectConfiguration Include="Debug|Win32">
 			<Configuration>Debug</Configuration>
@@ -18,6 +18,11 @@
 			<Platform>x64</Platform>
 		</ProjectConfiguration>
 	</ItemGroup>
+	<PropertyGroup Condition="'$(WindowsTargetPlatformVersion)'==''">
+		<LatestTargetPlatformVersion>$([Microsoft.Build.Utilities.ToolLocationHelper]::GetLatestSDKTargetPlatformVersion('Windows', '10.0'))</LatestTargetPlatformVersion>
+		<WindowsTargetPlatformVersion Condition="'$(WindowsTargetPlatformVersion)' == ''">$(LatestTargetPlatformVersion)</WindowsTargetPlatformVersion>
+		<TargetPlatformVersion>$(WindowsTargetPlatformVersion)</TargetPlatformVersion>
+	</PropertyGroup>
 	<PropertyGroup Label="Globals">
 		<ProjectGuid>{7FD42DF7-442E-479A-BA76-D0022F99702A}</ProjectGuid>
 		<Keyword>Win32Proj</Keyword>
@@ -27,24 +32,24 @@
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
 		<ConfigurationType>Application</ConfigurationType>
 		<CharacterSet>Unicode</CharacterSet>
-		<PlatformToolset>v140</PlatformToolset>
+		<PlatformToolset>v141</PlatformToolset>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
 		<ConfigurationType>Application</ConfigurationType>
 		<CharacterSet>Unicode</CharacterSet>
-		<PlatformToolset>v140</PlatformToolset>
+		<PlatformToolset>v141</PlatformToolset>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
 		<ConfigurationType>Application</ConfigurationType>
 		<CharacterSet>Unicode</CharacterSet>
 		<WholeProgramOptimization>true</WholeProgramOptimization>
-		<PlatformToolset>v140</PlatformToolset>
+		<PlatformToolset>v141</PlatformToolset>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
 		<ConfigurationType>Application</ConfigurationType>
 		<CharacterSet>Unicode</CharacterSet>
 		<WholeProgramOptimization>true</WholeProgramOptimization>
-		<PlatformToolset>v140</PlatformToolset>
+		<PlatformToolset>v141</PlatformToolset>
 	</PropertyGroup>
 	<Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
 	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
@@ -97,6 +102,7 @@
 			<WarningLevel>Level3</WarningLevel>
 			<AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);src;..\..\..\addons\ofxYAML\libs\yaml-cpp\include;..\..\..\addons\ofxYAML\src</AdditionalIncludeDirectories>
 			<CompileAs>CompileAsCpp</CompileAs>
+			<ObjectFileName>$(IntDir)/%(RelativeDir)/</ObjectFileName>
 		</ClCompile>
 		<Link>
 			<GenerateDebugInformation>true</GenerateDebugInformation>
@@ -116,6 +122,7 @@
 			<WarningLevel>Level3</WarningLevel>
 			<AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);src;..\..\..\addons\ofxYAML\libs\yaml-cpp\include;..\..\..\addons\ofxYAML\src</AdditionalIncludeDirectories>
 			<CompileAs>CompileAsCpp</CompileAs>
+			<ObjectFileName>$(IntDir)/%(RelativeDir)/</ObjectFileName>
 			<MultiProcessorCompilation>true</MultiProcessorCompilation>
 		</ClCompile>
 		<Link>
@@ -135,6 +142,7 @@
 			<WarningLevel>Level3</WarningLevel>
 			<AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);src;..\..\..\addons\ofxYAML\libs\yaml-cpp\include;..\..\..\addons\ofxYAML\src</AdditionalIncludeDirectories>
 			<CompileAs>CompileAsCpp</CompileAs>
+			<ObjectFileName>$(IntDir)/%(RelativeDir)/</ObjectFileName>
 			<MultiProcessorCompilation>true</MultiProcessorCompilation>
 		</ClCompile>
 		<Link>
@@ -157,6 +165,7 @@
 			<WarningLevel>Level3</WarningLevel>
 			<AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);src;..\..\..\addons\ofxYAML\libs\yaml-cpp\include;..\..\..\addons\ofxYAML\src</AdditionalIncludeDirectories>
 			<CompileAs>CompileAsCpp</CompileAs>
+			<ObjectFileName>$(IntDir)/%(RelativeDir)/</ObjectFileName>
 		</ClCompile>
 		<Link>
 			<IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
@@ -178,43 +187,43 @@
 	<ItemGroup>
 		<ClInclude Include="src\ofApp.h" />
 		<ClInclude Include="..\..\..\addons\ofxYAML\src\ofxYAML.h" />
-		<ClInclude Include="..\..\..\addons\ofxYAML\libs\yaml-cpp\include\anchor.h" />
-		<ClInclude Include="..\..\..\addons\ofxYAML\libs\yaml-cpp\include\binary.h" />
-		<ClInclude Include="..\..\..\addons\ofxYAML\libs\yaml-cpp\include\contrib\anchordict.h" />
-		<ClInclude Include="..\..\..\addons\ofxYAML\libs\yaml-cpp\include\contrib\graphbuilder.h" />
-		<ClInclude Include="..\..\..\addons\ofxYAML\libs\yaml-cpp\include\dll.h" />
-		<ClInclude Include="..\..\..\addons\ofxYAML\libs\yaml-cpp\include\emitfromevents.h" />
-		<ClInclude Include="..\..\..\addons\ofxYAML\libs\yaml-cpp\include\emitter.h" />
-		<ClInclude Include="..\..\..\addons\ofxYAML\libs\yaml-cpp\include\emitterdef.h" />
-		<ClInclude Include="..\..\..\addons\ofxYAML\libs\yaml-cpp\include\emittermanip.h" />
-		<ClInclude Include="..\..\..\addons\ofxYAML\libs\yaml-cpp\include\emitterstyle.h" />
-		<ClInclude Include="..\..\..\addons\ofxYAML\libs\yaml-cpp\include\eventhandler.h" />
-		<ClInclude Include="..\..\..\addons\ofxYAML\libs\yaml-cpp\include\exceptions.h" />
-		<ClInclude Include="..\..\..\addons\ofxYAML\libs\yaml-cpp\include\mark.h" />
-		<ClInclude Include="..\..\..\addons\ofxYAML\libs\yaml-cpp\include\node\convert.h" />
-		<ClInclude Include="..\..\..\addons\ofxYAML\libs\yaml-cpp\include\node\detail\bool_type.h" />
-		<ClInclude Include="..\..\..\addons\ofxYAML\libs\yaml-cpp\include\node\detail\impl.h" />
-		<ClInclude Include="..\..\..\addons\ofxYAML\libs\yaml-cpp\include\node\detail\iterator.h" />
-		<ClInclude Include="..\..\..\addons\ofxYAML\libs\yaml-cpp\include\node\detail\iterator_fwd.h" />
-		<ClInclude Include="..\..\..\addons\ofxYAML\libs\yaml-cpp\include\node\detail\memory.h" />
-		<ClInclude Include="..\..\..\addons\ofxYAML\libs\yaml-cpp\include\node\detail\node.h" />
-		<ClInclude Include="..\..\..\addons\ofxYAML\libs\yaml-cpp\include\node\detail\node_data.h" />
-		<ClInclude Include="..\..\..\addons\ofxYAML\libs\yaml-cpp\include\node\detail\node_iterator.h" />
-		<ClInclude Include="..\..\..\addons\ofxYAML\libs\yaml-cpp\include\node\detail\node_ref.h" />
-		<ClInclude Include="..\..\..\addons\ofxYAML\libs\yaml-cpp\include\node\emit.h" />
-		<ClInclude Include="..\..\..\addons\ofxYAML\libs\yaml-cpp\include\node\impl.h" />
-		<ClInclude Include="..\..\..\addons\ofxYAML\libs\yaml-cpp\include\node\iterator.h" />
-		<ClInclude Include="..\..\..\addons\ofxYAML\libs\yaml-cpp\include\node\node.h" />
-		<ClInclude Include="..\..\..\addons\ofxYAML\libs\yaml-cpp\include\node\parse.h" />
-		<ClInclude Include="..\..\..\addons\ofxYAML\libs\yaml-cpp\include\node\ptr.h" />
-		<ClInclude Include="..\..\..\addons\ofxYAML\libs\yaml-cpp\include\node\type.h" />
-		<ClInclude Include="..\..\..\addons\ofxYAML\libs\yaml-cpp\include\noncopyable.h" />
-		<ClInclude Include="..\..\..\addons\ofxYAML\libs\yaml-cpp\include\null.h" />
-		<ClInclude Include="..\..\..\addons\ofxYAML\libs\yaml-cpp\include\ostream_wrapper.h" />
-		<ClInclude Include="..\..\..\addons\ofxYAML\libs\yaml-cpp\include\parser.h" />
-		<ClInclude Include="..\..\..\addons\ofxYAML\libs\yaml-cpp\include\stlemitter.h" />
 		<ClInclude Include="..\..\..\addons\ofxYAML\libs\yaml-cpp\include\traits.h" />
+		<ClInclude Include="..\..\..\addons\ofxYAML\libs\yaml-cpp\include\eventhandler.h" />
+		<ClInclude Include="..\..\..\addons\ofxYAML\libs\yaml-cpp\include\emitter.h" />
+		<ClInclude Include="..\..\..\addons\ofxYAML\libs\yaml-cpp\include\anchor.h" />
+		<ClInclude Include="..\..\..\addons\ofxYAML\libs\yaml-cpp\include\mark.h" />
+		<ClInclude Include="..\..\..\addons\ofxYAML\libs\yaml-cpp\include\emitterdef.h" />
+		<ClInclude Include="..\..\..\addons\ofxYAML\libs\yaml-cpp\include\parser.h" />
+		<ClInclude Include="..\..\..\addons\ofxYAML\libs\yaml-cpp\include\null.h" />
+		<ClInclude Include="..\..\..\addons\ofxYAML\libs\yaml-cpp\include\exceptions.h" />
+		<ClInclude Include="..\..\..\addons\ofxYAML\libs\yaml-cpp\include\emitterstyle.h" />
+		<ClInclude Include="..\..\..\addons\ofxYAML\libs\yaml-cpp\include\emittermanip.h" />
+		<ClInclude Include="..\..\..\addons\ofxYAML\libs\yaml-cpp\include\emitfromevents.h" />
+		<ClInclude Include="..\..\..\addons\ofxYAML\libs\yaml-cpp\include\dll.h" />
+		<ClInclude Include="..\..\..\addons\ofxYAML\libs\yaml-cpp\include\contrib\graphbuilder.h" />
+		<ClInclude Include="..\..\..\addons\ofxYAML\libs\yaml-cpp\include\contrib\anchordict.h" />
+		<ClInclude Include="..\..\..\addons\ofxYAML\libs\yaml-cpp\include\noncopyable.h" />
 		<ClInclude Include="..\..\..\addons\ofxYAML\libs\yaml-cpp\include\yaml.h" />
+		<ClInclude Include="..\..\..\addons\ofxYAML\libs\yaml-cpp\include\node\type.h" />
+		<ClInclude Include="..\..\..\addons\ofxYAML\libs\yaml-cpp\include\node\parse.h" />
+		<ClInclude Include="..\..\..\addons\ofxYAML\libs\yaml-cpp\include\node\node.h" />
+		<ClInclude Include="..\..\..\addons\ofxYAML\libs\yaml-cpp\include\node\detail\node_data.h" />
+		<ClInclude Include="..\..\..\addons\ofxYAML\libs\yaml-cpp\include\node\detail\node_ref.h" />
+		<ClInclude Include="..\..\..\addons\ofxYAML\libs\yaml-cpp\include\node\detail\node.h" />
+		<ClInclude Include="..\..\..\addons\ofxYAML\libs\yaml-cpp\include\node\detail\bool_type.h" />
+		<ClInclude Include="..\..\..\addons\ofxYAML\libs\yaml-cpp\include\node\detail\memory.h" />
+		<ClInclude Include="..\..\..\addons\ofxYAML\libs\yaml-cpp\include\node\detail\node_iterator.h" />
+		<ClInclude Include="..\..\..\addons\ofxYAML\libs\yaml-cpp\include\node\detail\impl.h" />
+		<ClInclude Include="..\..\..\addons\ofxYAML\libs\yaml-cpp\include\node\detail\iterator_fwd.h" />
+		<ClInclude Include="..\..\..\addons\ofxYAML\libs\yaml-cpp\include\node\detail\iterator.h" />
+		<ClInclude Include="..\..\..\addons\ofxYAML\libs\yaml-cpp\include\node\ptr.h" />
+		<ClInclude Include="..\..\..\addons\ofxYAML\libs\yaml-cpp\include\node\convert.h" />
+		<ClInclude Include="..\..\..\addons\ofxYAML\libs\yaml-cpp\include\node\impl.h" />
+		<ClInclude Include="..\..\..\addons\ofxYAML\libs\yaml-cpp\include\node\emit.h" />
+		<ClInclude Include="..\..\..\addons\ofxYAML\libs\yaml-cpp\include\node\iterator.h" />
+		<ClInclude Include="..\..\..\addons\ofxYAML\libs\yaml-cpp\include\ostream_wrapper.h" />
+		<ClInclude Include="..\..\..\addons\ofxYAML\libs\yaml-cpp\include\stlemitter.h" />
+		<ClInclude Include="..\..\..\addons\ofxYAML\libs\yaml-cpp\include\binary.h" />
 	</ItemGroup>
 	<ItemGroup>
 		<ProjectReference Include="$(OF_ROOT)\libs\openFrameworksCompiled\project\vs\openframeworksLib.vcxproj">
