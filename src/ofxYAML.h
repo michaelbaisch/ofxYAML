@@ -35,13 +35,19 @@ namespace YAML {
         }
         
         static bool decodeVector2(const Node& node, T& rhs) {
-            if (!node.IsSequence() || node.size() != 2) {
-                return false;
-            }
+            if (node.size() != 2) { return false; }
             
-            rhs.x = node[0].as<SubT>();
-            rhs.y = node[1].as<SubT>();
-            return true;
+            if (node.IsSequence()) {    // [0, 1]
+                rhs.x = node[0].as<SubT>();
+                rhs.y = node[1].as<SubT>();
+                return true;
+            }
+            else if (node.IsMap() && node["x"] && node["y"]) { // {x: 0, y: 1}
+                rhs.x = node["x"].as<SubT>();
+                rhs.y = node["y"].as<SubT>();
+                return true;
+            }
+            return false;
         }
     };
     template<typename T, typename SubT>
@@ -55,14 +61,21 @@ namespace YAML {
         }
         
         static bool decodeVector3(const Node& node, T& rhs) {
-            if (!node.IsSequence() || node.size() != 3) {
-                return false;
-            }
+            if (node.size() != 3) { return false; }
             
-            rhs.x = node[0].as<SubT>();
-            rhs.y = node[1].as<SubT>();
-            rhs.z = node[2].as<SubT>();
-            return true;
+            if (node.IsSequence()) {
+                rhs.x = node[0].as<SubT>();
+                rhs.y = node[1].as<SubT>();
+                rhs.z = node[2].as<SubT>();
+                return true;
+            }
+            else if (node.IsMap() && node["x"] && node["y"] && node["z"]) {
+                rhs.x = node["x"].as<SubT>();
+                rhs.y = node["y"].as<SubT>();
+                rhs.z = node["z"].as<SubT>();
+                return true;
+            }
+            return false;
         }
     };
     template<typename T, typename SubT>
