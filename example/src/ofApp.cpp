@@ -7,6 +7,10 @@ void ofApp::setup(){
     int framerate = yaml["frameRate"].as<int>();
     bool verticalSync = yaml["verticalSync"].as<bool>();
     string title = yaml["title"].as<string>();
+
+    // Getting OF vectors example
+    ofVec3f ofVecPos = yaml["pos"].as<ofVec3f>();
+    ofPoint ofPointPos = yaml["pos"].as<ofPoint>();
     
     ofSetFrameRate(framerate);
     ofSetVerticalSync(verticalSync);
