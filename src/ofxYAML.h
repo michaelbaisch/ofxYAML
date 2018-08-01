@@ -111,7 +111,7 @@ namespace YAML {
         }
         
         static bool decode(const Node& node, glm::tvec2<T>& rhs) {
-            return convertVector2<glm::tvec2<T>, T>().decodeVector2(rhs);
+            return convertVector2<glm::tvec2<T>, T>().decodeVector2(node, rhs);
         }
     };
     template<typename T>
@@ -127,7 +127,7 @@ namespace YAML {
     template<typename T>
     struct convert<glm::tvec4<T>> {
         static Node encode(const glm::tvec4<T>& rhs) {
-            return convertVector4<glm::tvec3<T>, T>().encodeVector4(rhs);
+            return convertVector4<glm::tvec4<T>, T>().encodeVector4(rhs);
         }
         
         static bool decode(const Node& node, glm::tvec4<T>& rhs) {
