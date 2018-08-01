@@ -46,7 +46,7 @@ common:
 	
 	# linux only, any library that should be included in the project using
 	# pkg-config
-	# ADDON_PKG_CONFIG_LIBRARIES =
+	ADDON_PKG_CONFIG_LIBRARIES = yaml-cpp
 	
 	# osx/iOS only, any framework that should be included in the project
 	# ADDON_FRAMEWORKS =
